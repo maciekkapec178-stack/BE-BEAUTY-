@@ -1,0 +1,134 @@
+.preloader-container {
+  position: fixed;
+  inset: 0;
+  z-index: 9000;
+  pointer-events: all;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.preloader__panel {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background-color: #1A0F0A; /* C.espresso */
+  z-index: 1;
+}
+
+.panel-1 {
+  left: 0;
+  width: 34%;
+}
+
+.panel-2 {
+  left: 33%;
+  width: 35%;
+}
+
+.panel-3 {
+  left: 67%;
+  width: 34%;
+}
+
+.preloader__content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.preloader__brand {
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.preloader__title {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  color: #FEFCF9;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.preloader__char {
+  display: inline-block;
+  will-change: transform, opacity;
+}
+
+.preloader__subtitle {
+  font-size: 9px;
+  letter-spacing: 0.5em;
+  color: #C4A882;
+  text-transform: uppercase;
+  opacity: 0.4;
+  will-change: transform, opacity;
+}
+
+.preloader__progress-wrap {
+  width: min(400px, 80vw);
+  position: relative;
+}
+
+.preloader__bar-container {
+  height: 2px;
+  background: rgba(255, 255, 255, 0.08);
+  position: relative;
+  overflow: hidden;
+}
+
+.preloader__bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  transition: width 0.1s ease-out;
+}
+
+.preloader__bar-shimmer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 80px;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.25), transparent);
+  animation: preloader-shimmer 2.2s infinite;
+}
+
+.preloader__status {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+  align-items: center;
+}
+
+.preloader__status-label {
+  font-size: 8px;
+  letter-spacing: 0.4em;
+  color: rgba(255, 255, 255, 0.2);
+  text-transform: uppercase;
+}
+
+.preloader__status-pct {
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: -0.02em;
+}
+
+.preloader__pct-sym {
+  font-size: 10px;
+  margin-left: 2px;
+  opacity: 0.5;
+}
+
+@keyframes preloader-shimmer {
+  0% { left: -80px; }
+  100% { left: calc(100% + 80px); }
+}

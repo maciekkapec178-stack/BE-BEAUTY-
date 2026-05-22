@@ -1,0 +1,139 @@
+{
+  "scrapedAt": "2026-05-20T22:18:50.211Z",
+  "sourceUrl": "https://booksy.com/pl-pl/102760_be-beauty-salon-urody-brow-academy-malgorzata-szymajda_salon-kosmetyczny_15570_luban",
+  "count": 14,
+  "gallery": [
+    "/images/social/booksy-01.jpg",
+    "/images/social/booksy-02.jpg",
+    "/images/social/booksy-03.jpg",
+    "/images/social/booksy-04.jpg",
+    "/images/social/booksy-05.jpg",
+    "/images/social/booksy-06.jpg",
+    "/images/social/booksy-07.jpg",
+    "/images/social/booksy-08.jpg"
+  ],
+  "services": [
+    "/images/social/booksy-09.jpg",
+    "/images/social/booksy-10.jpg"
+  ],
+  "reviews": [
+    "/images/social/booksy-11.jpg",
+    "/images/social/booksy-12.jpg",
+    "/images/social/booksy-13.jpg",
+    "/images/social/booksy-14.jpg"
+  ],
+  "images": [
+    {
+      "id": "booksy-1",
+      "type": "gallery",
+      "filename": "booksy-01.jpg",
+      "localPath": "/images/social/booksy-01.jpg",
+      "originalUrl": "https://d375139ucebi94.cloudfront.net/region2/pl/102760/biz_photo/10933c4a08184b6e88d2b1b61c69db-be-beauty-salon-urody-brow-aca-biz-photo-d83a7a66da3a450c93c97fab8e3b0d-booksy.jpeg",
+      "bytes": 259114
+    },
+    {
+      "id": "booksy-2",
+      "type": "gallery",
+      "filename": "booksy-02.jpg",
+      "localPath": "/images/social/booksy-02.jpg",
+      "originalUrl": "https://d375139ucebi94.cloudfront.net/region2/pl/102760/biz_photo/7e6cc2c321a14fc3be81309f1e5648-be-beauty-salon-urody-brow-aca-biz-photo-5ca1ffbad93745f48a2851d366a7d8-booksy.jpeg",
+      "bytes": 511792
+    },
+    {
+      "id": "booksy-3",
+      "type": "gallery",
+      "filename": "booksy-03.jpg",
+      "localPath": "/images/social/booksy-03.jpg",
+      "originalUrl": "https://d375139ucebi94.cloudfront.net/region2/pl/102760/biz_photo/b44eb6fae4304a1983c4c8660f10df-be-beauty-salon-urody-brow-aca-biz-photo-fdbd897d9a9348f5b4e6abd9f13288-booksy.jpeg",
+      "bytes": 113762
+    },
+    {
+      "id": "booksy-4",
+      "type": "gallery",
+      "filename": "booksy-04.jpg",
+      "localPath": "/images/social/booksy-04.jpg",
+      "originalUrl": "https://d375139ucebi94.cloudfront.net/region2/pl/102760/biz_photo/3fd28c59227a4e37ac703cb27d5168-be-beauty-salon-urody-brow-aca-biz-photo-0907c18a0e58472db45c3ad13e1b09-booksy.jpeg",
+      "bytes": 252978
+    },
+    {
+      "id": "booksy-5",
+      "type": "gallery",
+      "filename": "booksy-05.jpg",
+      "localPath": "/images/social/booksy-05.jpg",
+      "originalUrl": "https://d375139ucebi94.cloudfront.net/region2/pl/102760/biz_photo/aa1dcd7af816436ab637fc97b998d9-be-beauty-salon-urody-brow-aca-biz-photo-64ecddb4a2d142158c34469331a290-booksy.jpeg",
+      "bytes": 85742
+    },
+    {
+      "id": "booksy-6",
+      "type": "gallery",
+      "filename": "booksy-06.jpg",
+      "localPath": "/images/social/booksy-06.jpg",
+      "originalUrl": "https://d375139ucebi94.cloudfront.net/region2/pl/102760/biz_photo/6dd305efebd34496ac2f9562d18024-be-beauty-salon-urody-brow-aca-biz-photo-a2d05d0a2ee14bda8efab7025e320b-booksy.jpeg",
+      "bytes": 143144
+    },
+    {
+      "id": "booksy-7",
+      "type": "gallery",
+      "filename": "booksy-07.jpg",
+      "localPath": "/images/social/booksy-07.jpg",
+      "originalUrl": "https://d375139ucebi94.cloudfront.net/region2/pl/102760/biz_photo/cd200df774d6419a86be87bff0d39d-be-beauty-salon-urody-brow-aca-biz-photo-6d6b5852f9c942e7bfd31673243fb3-booksy.jpeg",
+      "bytes": 83137
+    },
+    {
+      "id": "booksy-8",
+      "type": "gallery",
+      "filename": "booksy-08.jpg",
+      "localPath": "/images/social/booksy-08.jpg",
+      "originalUrl": "https://d375139ucebi94.cloudfront.net/region2/pl/102760/biz_photo/729e897f9e5b4144a87ff05b8ccc20-be-beauty-salon-urody-brow-aca-biz-photo-aca2523f6e1f4f06b5180548f4ab8f-booksy.jpeg",
+      "bytes": 45579
+    },
+    {
+      "id": "booksy-9",
+      "type": "service",
+      "filename": "booksy-09.jpg",
+      "localPath": "/images/social/booksy-09.jpg",
+      "originalUrl": "https://d375139ucebi94.cloudfront.net/region2/pl/102760/service_photos/501ba3dc0f704c3f8c54f28ec88a667f.jpeg",
+      "bytes": 106721
+    },
+    {
+      "id": "booksy-10",
+      "type": "service",
+      "filename": "booksy-10.jpg",
+      "localPath": "/images/social/booksy-10.jpg",
+      "originalUrl": "https://d375139ucebi94.cloudfront.net/region2/pl/102760/service_photos/fb4c4fe006cd4c9c8b3d78550ffed37c.jpeg",
+      "bytes": 106721
+    },
+    {
+      "id": "booksy-11",
+      "type": "review",
+      "filename": "booksy-11.jpg",
+      "localPath": "/images/social/booksy-11.jpg",
+      "originalUrl": "https://d375139ucebi94.cloudfront.net/region2/pl/102760/review_photos/4f044981e67a4a33aa0fd404446fd2fd.jpeg",
+      "bytes": 339656
+    },
+    {
+      "id": "booksy-12",
+      "type": "review",
+      "filename": "booksy-12.jpg",
+      "localPath": "/images/social/booksy-12.jpg",
+      "originalUrl": "https://d375139ucebi94.cloudfront.net/region2/pl/102760/review_photos/c7bdcfb748b342b58d9daa28a9759e65.jpeg",
+      "bytes": 140709
+    },
+    {
+      "id": "booksy-13",
+      "type": "review",
+      "filename": "booksy-13.jpg",
+      "localPath": "/images/social/booksy-13.jpg",
+      "originalUrl": "https://d375139ucebi94.cloudfront.net/region2/pl/102760/review_photos/2a2b0ce6695345289c7420117d562555.jpeg",
+      "bytes": 226921
+    },
+    {
+      "id": "booksy-14",
+      "type": "review",
+      "filename": "booksy-14.jpg",
+      "localPath": "/images/social/booksy-14.jpg",
+      "originalUrl": "https://d375139ucebi94.cloudfront.net/region2/pl/102760/review_photos/d35ea6cfc1cb49f6b22967f9e34972f3.jpeg",
+      "bytes": 124381
+    }
+  ]
+}

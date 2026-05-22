@@ -1,0 +1,378 @@
+.atelier {
+  /* Ten sam gradient co :root — łączy Hero (#1a0f0a) z Galerią (#fefcf9) */
+  margin-top: -1px;
+  position: relative;
+  isolation: isolate;
+  /* WAŻNE: BEZ overflow:hidden — to obcinało track przesuwany przez GSAP.
+   * ScrollTrigger pin potrzebuje, żeby rodzic NIE blokował overflow. */
+  overflow: visible;
+  --hud-height: 80px;
+}
+
+.atelier__intro {
+  position: relative;
+  z-index: 1;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: clamp(72px, 10vw, 110px) clamp(24px, 5vw, 60px) clamp(40px, 5vw, 56px);
+  text-align: center;
+}
+
+.atelier__eyebrow {
+  font-size: 9px;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0 0 20px;
+  opacity: 0.8;
+}
+
+.atelier__title {
+  font-size: clamp(2.2rem, 5.5vw, 4.5rem);
+  line-height: 1.02;
+  letter-spacing: -0.03em;
+  margin: 0 0 16px;
+  font-weight: 300;
+  color: #f8f5f0; /* nadpisuje globalne h2 (--color-secondary) na ciemnym tle */
+}
+
+.atelier__title em {
+  font-style: italic;
+  font-weight: 300;
+  color: #fefcf9;
+}
+
+.atelier__pin {
+  position: relative;
+  z-index: 1;
+  height: 100vh;
+  min-height: 620px;
+  /* BEZ overflow:hidden — ScrollTrigger zarządza tym przy pin */
+  will-change: transform;
+}
+
+.atelier__hud {
+  position: absolute;
+  top: clamp(20px, 4vw, 40px);
+  left: clamp(20px, 5vw, 60px);
+  right: clamp(20px, 5vw, 60px);
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  pointer-events: none;
+}
+
+.atelier__hud .atelier__counter {
+  color: #6b5b4e;
+}
+
+.atelier__counter {
+  font-size: 10px;
+  letter-spacing: 0.35em;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.atelier__progress {
+  flex: 1;
+  height: 1px;
+  background: rgba(26, 15, 10, 0.12);
+  overflow: hidden;
+}
+
+.atelier__progress-bar {
+  height: 100%;
+  width: 100%;
+  background: #c4a882;
+  transform: scaleX(0);
+  transform-origin: left center;
+  will-change: transform;
+}
+
+.atelier__track-container {
+  width: 100%;
+  height: 100%;
+  /* BEZ perspective — tworzy nowy containing block, psuje pin fixed */
+}
+
+.atelier__track {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 100%;
+  width: max-content;
+  will-change: transform;
+  align-items: center; /* Center panels vertically in the 100vh track */
+  padding-left: clamp(40px, 10vw, 120px);
+  padding-right: clamp(100px, 20vw, 300px);
+}
+
+.atelier-panel {
+  flex-shrink: 0;
+  display: flex;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transform: none;
+  transition: border-color 0.5s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  box-sizing: border-box;
+}
+
+.atelier-panel--photo {
+  width: clamp(280px, 38vw, 420px);
+  height: clamp(380px, 58vh, 620px);
+  margin: auto 24px; /* Perfectly aligned with padding between items */
+  opacity: 1;
+}
+
+.atelier-panel--photo .atelier-panel__media {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Karta opisu — czytelna na rozjaśnionym tle */
+.atelier-panel--divider {
+  width: clamp(280px, 38vw, 420px);
+  height: clamp(380px, 58vh, 620px);
+  margin: auto 24px;
+  border: 1px solid rgba(107, 91, 78, 0.2);
+  background: rgba(254, 252, 249, 0.72);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 12px 48px rgba(26, 15, 10, 0.06);
+  padding: clamp(24px, 4vw, 48px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.atelier-panel--divider:hover {
+  border-color: rgba(196, 168, 130, 0.45);
+  box-shadow: 0 16px 56px rgba(26, 15, 10, 0.1);
+}
+
+.atelier-panel--divider .atelier-panel__number {
+  color: #c4a882 !important;
+}
+
+.atelier-panel--divider .atelier-panel__tag {
+  color: #6b5b4e !important;
+}
+
+.atelier-panel--divider .atelier-panel__heading {
+  color: #1a0f0a !important;
+}
+
+.atelier-panel--divider .atelier-panel__desc {
+  color: rgba(26, 15, 10, 0.62) !important;
+}
+
+/* Reset standard overlay/content attributes inside empty rectangle */
+.atelier-panel--divider .atelier-panel__content {
+  position: relative;
+  bottom: auto;
+  left: auto;
+  right: auto;
+  padding: 0;
+  transform: none;
+  opacity: 1;
+}
+
+.atelier-panel--cta {
+  width: clamp(280px, 45vw, 540px);
+  height: clamp(380px, 60vh, 700px);
+  margin: auto 24px;
+  background: #1a0f0a; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: clamp(32px, 5vw, 64px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.atelier-panel__media-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  clip-path: inset(0 8% 0 8%);
+  transition: clip-path 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.atelier-panel.is-inview .atelier-panel__media-wrapper {
+  clip-path: inset(0 0% 0 0%);
+}
+
+.atelier-panel__media {
+  width: 125%; 
+  height: 100%;
+  left: -12.5%;
+  position: absolute;
+  object-fit: cover;
+  will-change: transform;
+}
+
+.atelier-panel__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(18, 10, 7, 0.9) 0%, rgba(18, 10, 7, 0.2) 60%, transparent 100%);
+  opacity: 0.8;
+  transition: opacity 0.6s ease;
+}
+
+.atelier-panel:hover .atelier-panel__overlay {
+  opacity: 0.35;
+}
+
+.atelier-panel__content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: clamp(32px, 5vh, 56px) clamp(24px, 4vw, 40px);
+  z-index: 2;
+  transform: translateY(0);
+  opacity: 1;
+  transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.atelier-panel.is-inview .atelier-panel__content {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.atelier-panel__number {
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  opacity: 0.35;
+  margin-bottom: 12px;
+  display: block;
+  line-height: 1;
+}
+
+.atelier-panel__tag {
+  font-size: 8px;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  margin: 0 0 10px;
+}
+
+.atelier-panel__heading {
+  font-size: clamp(1.4rem, 2.5vw, 2rem);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  margin: 0 0 10px;
+}
+
+.atelier-panel__cta-btn {
+  margin-top: 20px;
+  padding: 16px 32px;
+  background: #c4a882; 
+  color: #120a07;
+  border: none;
+  font-size: 9px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  width: fit-content;
+}
+
+.atelier-panel__cta-btn:hover {
+  transform: scale(1.05);
+}
+
+.desktop-only { display: flex; }
+
+/* Mobile — zwykłe przewijanie pionowe strony (bez poziomego pinu / karuzeli) */
+@media (max-width: 899px) {
+  .desktop-only {
+    display: none !important;
+  }
+
+  .atelier__pin {
+    height: auto;
+    min-height: 0;
+  }
+
+  .atelier__track-container {
+    width: 100%;
+    overflow: visible;
+    -webkit-overflow-scrolling: auto;
+  }
+
+  .atelier__track {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 100% !important;
+    max-width: 100%;
+    height: auto;
+    padding: 0 var(--shell-padding, 24px) clamp(48px, 12vw, 80px);
+    gap: clamp(20px, 5vw, 28px);
+    transform: none !important;
+    will-change: auto;
+  }
+
+  .atelier-panel {
+    flex-shrink: 0;
+    width: 100% !important;
+    max-width: 520px;
+    margin: 0 auto !important;
+    scroll-snap-align: none;
+    height: auto;
+    min-height: 0;
+  }
+
+  .atelier-panel--photo {
+    min-height: clamp(280px, 72vw, 400px);
+  }
+
+  .atelier-panel--photo.atelier-panel--cinema .atelier-panel__media-wrapper {
+    aspect-ratio: 16 / 9;
+    min-height: 220px;
+  }
+
+  .atelier-panel--photo.atelier-panel--portrait .atelier-panel__media-wrapper {
+    aspect-ratio: 4 / 5;
+    min-height: 280px;
+  }
+
+  .atelier-panel--divider,
+  .atelier-panel--cta {
+    min-height: auto;
+    padding: clamp(28px, 6vw, 40px);
+  }
+
+  .atelier-panel__content {
+    opacity: 1;
+    transform: none;
+    position: absolute;
+  }
+
+  .atelier-panel--divider .atelier-panel__content {
+    position: relative;
+  }
+
+  .atelier-panel__media-wrapper {
+    clip-path: none !important;
+    height: 100%;
+  }
+
+  .atelier-panel__media {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    position: absolute;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .atelier__track { flex-wrap: wrap; width: 100% !important; transform: none !important; padding: 0 24px 48px; gap: 20px; }
+  .atelier-panel--photo, .atelier-panel--cta { width: 100% !important; max-width: 520px; }
+  .atelier-panel--divider { width: 100% !important; max-width: 300px; }
+  .atelier-panel { height: auto; min-height: 420px; }
+  .atelier-panel__media-wrapper { clip-path: none !important; }
+  .atelier-panel__content { opacity: 1; transform: none; }
+}

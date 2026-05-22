@@ -1,0 +1,100 @@
+{
+  "scrapedAt": "2026-05-20T14:11:23.358Z",
+  "facebookPage": "https://www.facebook.com/bebeautyluban",
+  "instagramProfile": "https://www.instagram.com/malgorzata_szymajda/",
+  "note": "Zdjęcia z publicznych podglądów + Booksy. Linki FB/IG CDN wygasają — uruchom ponownie scripts/scrape-social-images.mjs aby odświeżyć.",
+  "images": [
+    {
+      "id": "booksy-1",
+      "source": "booksy",
+      "filename": "booksy-01.jpg",
+      "localPath": "/images/social/booksy-01.jpg",
+      "originalUrl": "https://d375139ucebi94.cloudfront.net/region2/pl/102760/biz_photo/10933c4a08184b6e88d2b1b61c69db-be-beauty-salon-urody-brow-aca-biz-photo-d83a7a66da3a450c93c97fab8e3b0d-booksy.jpeg",
+      "bytes": 259114
+    },
+    {
+      "id": "booksy-2",
+      "source": "booksy",
+      "filename": "booksy-02.jpg",
+      "localPath": "/images/social/booksy-02.jpg",
+      "originalUrl": "https://d375139ucebi94.cloudfront.net/region2/pl/102760/logo/0759356e01a844d2a844a5c0757c57-be-beauty-salon-urody-brow-aca-logo-b548ca8399cf42e0814fa016564862-booksy.jpeg",
+      "bytes": 347388
+    }
+  ],
+  "profile": {
+    "id": "booksy-1",
+    "source": "booksy",
+    "filename": "booksy-01.jpg",
+    "localPath": "/images/social/booksy-01.jpg",
+    "originalUrl": "https://d375139ucebi94.cloudfront.net/region2/pl/102760/biz_photo/10933c4a08184b6e88d2b1b61c69db-be-beauty-salon-urody-brow-aca-biz-photo-d83a7a66da3a450c93c97fab8e3b0d-booksy.jpeg",
+    "bytes": 259114
+  },
+  "hero": {
+    "id": "booksy-1",
+    "source": "booksy",
+    "filename": "booksy-01.jpg",
+    "localPath": "/images/social/booksy-01.jpg",
+    "originalUrl": "https://d375139ucebi94.cloudfront.net/region2/pl/102760/biz_photo/10933c4a08184b6e88d2b1b61c69db-be-beauty-salon-urody-brow-aca-biz-photo-d83a7a66da3a450c93c97fab8e3b0d-booksy.jpeg",
+    "bytes": 259114
+  },
+  "about": {
+    "id": "booksy-2",
+    "source": "booksy",
+    "filename": "booksy-02.jpg",
+    "localPath": "/images/social/booksy-02.jpg",
+    "originalUrl": "https://d375139ucebi94.cloudfront.net/region2/pl/102760/logo/0759356e01a844d2a844a5c0757c57-be-beauty-salon-urody-brow-aca-logo-b548ca8399cf42e0814fa016564862-booksy.jpeg",
+    "bytes": 347388
+  },
+  "gallery": [
+    {
+      "id": "booksy-1",
+      "source": "booksy",
+      "filename": "booksy-01.jpg",
+      "localPath": "/images/social/booksy-01.jpg",
+      "originalUrl": "https://d375139ucebi94.cloudfront.net/region2/pl/102760/biz_photo/10933c4a08184b6e88d2b1b61c69db-be-beauty-salon-urody-brow-aca-biz-photo-d83a7a66da3a450c93c97fab8e3b0d-booksy.jpeg",
+      "bytes": 259114
+    },
+    {
+      "id": "booksy-2",
+      "source": "booksy",
+      "filename": "booksy-02.jpg",
+      "localPath": "/images/social/booksy-02.jpg",
+      "originalUrl": "https://d375139ucebi94.cloudfront.net/region2/pl/102760/logo/0759356e01a844d2a844a5c0757c57-be-beauty-salon-urody-brow-aca-logo-b548ca8399cf42e0814fa016564862-booksy.jpeg",
+      "bytes": 347388
+    }
+  ],
+  "services": {
+    "brows": {
+      "id": "booksy-1",
+      "source": "booksy",
+      "filename": "booksy-01.jpg",
+      "localPath": "/images/social/booksy-01.jpg",
+      "originalUrl": "https://d375139ucebi94.cloudfront.net/region2/pl/102760/biz_photo/10933c4a08184b6e88d2b1b61c69db-be-beauty-salon-urody-brow-aca-biz-photo-d83a7a66da3a450c93c97fab8e3b0d-booksy.jpeg",
+      "bytes": 259114
+    },
+    "cosmetology": {
+      "id": "booksy-2",
+      "source": "booksy",
+      "filename": "booksy-02.jpg",
+      "localPath": "/images/social/booksy-02.jpg",
+      "originalUrl": "https://d375139ucebi94.cloudfront.net/region2/pl/102760/logo/0759356e01a844d2a844a5c0757c57-be-beauty-salon-urody-brow-aca-logo-b548ca8399cf42e0814fa016564862-booksy.jpeg",
+      "bytes": 347388
+    },
+    "nails": {
+      "id": "booksy-1",
+      "source": "booksy",
+      "filename": "booksy-01.jpg",
+      "localPath": "/images/social/booksy-01.jpg",
+      "originalUrl": "https://d375139ucebi94.cloudfront.net/region2/pl/102760/biz_photo/10933c4a08184b6e88d2b1b61c69db-be-beauty-salon-urody-brow-aca-biz-photo-d83a7a66da3a450c93c97fab8e3b0d-booksy.jpeg",
+      "bytes": 259114
+    },
+    "academy": {
+      "id": "booksy-1",
+      "source": "booksy",
+      "filename": "booksy-01.jpg",
+      "localPath": "/images/social/booksy-01.jpg",
+      "originalUrl": "https://d375139ucebi94.cloudfront.net/region2/pl/102760/biz_photo/10933c4a08184b6e88d2b1b61c69db-be-beauty-salon-urody-brow-aca-biz-photo-d83a7a66da3a450c93c97fab8e3b0d-booksy.jpeg",
+      "bytes": 259114
+    }
+  }
+}

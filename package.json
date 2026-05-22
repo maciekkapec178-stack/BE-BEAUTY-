@@ -1,0 +1,37 @@
+{
+  "name": "be-beauty",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "scrape": "node scripts/scrape-all.mjs",
+    "scrape:hero": "node scripts/scrape-fb-photo.mjs",
+    "scrape:academy": "node scripts/scrape-academy-photo.mjs",
+    "scrape:instagram": "node scripts/scrape-instagram.mjs",
+    "scrape:booksy": "node scripts/scrape-booksy.mjs",
+    "scrape:booksy:images": "node scripts/scrape-booksy-images.mjs"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.106.1",
+    "clsx": "^2.1.0",
+    "framer-motion": "^11.0.8",
+    "gsap": "^3.12.5",
+    "lenis": "^1.3.23",
+    "lucide-react": "^0.344.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwind-merge": "^2.2.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@vitejs/plugin-react": "^6.0.2",
+    "playwright": "^1.60.0",
+    "typescript": "^5.2.2",
+    "vite": "^8.0.14"
+  }
+}

@@ -1,0 +1,298 @@
+.hero {
+  position: relative;
+  height: 100vh;
+  min-height: 750px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: var(--color-espresso, #1a0f0a);
+}
+
+.hero__bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.hero__bg-wrapper {
+  position: absolute;
+  inset: 0;
+  will-change: clip-path, transform;
+}
+
+.hero__bg-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: left center;
+  transform: scale(1.08);
+  will-change: transform;
+}
+
+.hero__gradient-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background:
+    linear-gradient(90deg, transparent 0%, transparent 40%, rgba(26, 15, 10, 0.45) 55%, rgba(26, 15, 10, 0.85) 100%),
+    linear-gradient(
+      to bottom,
+      transparent 78%,
+      rgba(26, 15, 10, 0.35) 90%,
+      var(--color-espresso, #1a0f0a) 97%,
+      var(--color-espresso, #1a0f0a) 100%
+    );
+}
+
+/* Wąski pas na samym dole — szew z Atelier, bez podciągania winiety w górę */
+.hero::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: clamp(24px, 3vh, 48px);
+  z-index: 2;
+  pointer-events: none;
+  background: linear-gradient(to bottom, transparent 0%, var(--color-espresso, #1a0f0a) 100%);
+}
+
+.hero__container {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 clamp(24px, 6vw, 100px);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  will-change: transform, opacity;
+}
+
+.hero__content-side {
+  max-width: min(580px, 55vw);
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.hero__eyebrow {
+  font-size: clamp(8px, 1vw, 10px);
+  font-weight: 700;
+  letter-spacing: 0.6em;
+  color: var(--color-nude, #C4A882);
+  text-transform: uppercase;
+  margin-bottom: 24px;
+  opacity: 0.8;
+}
+
+.hero__title {
+  font-size: clamp(2.5rem, 5.5vw, 5.5rem);
+  font-weight: 300;
+  letter-spacing: 0.08em;
+  line-height: 1.05;
+  text-transform: uppercase;
+  color: #FEFCF9;
+  margin: 0 0 24px;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.hero__char {
+  display: inline-block;
+  will-change: transform, opacity;
+}
+
+.hero__divider {
+  width: 60px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(196, 168, 130, 0.45), transparent);
+  margin-bottom: 28px;
+}
+
+.hero__desc {
+  font-size: clamp(1.15rem, 2vw, 1.65rem);
+  font-weight: 300;
+  font-style: italic;
+  letter-spacing: 0.04em;
+  line-height: 1.65;
+  color: rgba(255, 255, 255, 0.55);
+  margin-bottom: 48px;
+}
+
+.hero__cta {
+  padding: 20px 56px;
+  border-radius: 40px;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+.hero__cta:hover {
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 16px 36px rgba(196, 168, 130, 0.35);
+  background-color: #FEFCF9 !important;
+  color: #1A0F0A !important;
+}
+
+.hero__side-decor {
+  position: absolute;
+  left: 40px;
+  bottom: 60px;
+  z-index: 2;
+  transform: rotate(-90deg);
+  transform-origin: left center;
+  pointer-events: none;
+}
+
+.hero__side-decor span {
+  font-size: 8px;
+  letter-spacing: 0.6em;
+  color: rgba(255, 255, 255, 0.15);
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.hero__scroll-indicator {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  height: 60px;
+  width: 1px;
+}
+
+.hero__scroll-line {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.45), transparent);
+  animation: hero-scroll-line 2.2s cubic-bezier(0.76, 0, 0.24, 1) infinite;
+  transform-origin: top center;
+}
+
+@keyframes hero-scroll-line {
+  0% { transform: scaleY(0); }
+  50% { transform: scaleY(1); }
+  100% { transform: scaleY(0); transform-origin: bottom center; }
+}
+
+/* Tablet — pełnoekranowe tło, mocniejsza winieta od dołu */
+@media (max-width: 991px) {
+  .hero {
+    justify-content: center;
+  }
+
+  .hero__gradient-overlay {
+    background:
+      linear-gradient(180deg, rgba(26, 15, 10, 0.12) 0%, rgba(26, 15, 10, 0.55) 42%, rgba(26, 15, 10, 0.94) 88%),
+      linear-gradient(90deg, rgba(26, 15, 10, 0.35) 0%, rgba(26, 15, 10, 0.65) 100%);
+  }
+
+  .hero__container {
+    justify-content: center;
+    padding: 0 24px;
+  }
+
+  .hero__content-side {
+    max-width: 100%;
+    text-align: center;
+    align-items: center;
+    padding-top: 8vh;
+  }
+
+  .hero__title {
+    justify-content: center;
+  }
+
+  .hero__bg-wrapper img {
+    object-position: center 32%;
+    transform: scale(1.02);
+  }
+
+  .hero__side-decor {
+    display: none;
+  }
+}
+
+/* Mobile — osobny pas zdjęcia u góry, tekst na stałym tle (inny układ niż desktop) */
+@media (max-width: 768px) {
+  .hero {
+    height: auto;
+    min-height: 100svh;
+    min-height: 100dvh;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+  }
+
+  .hero__bg {
+    position: relative;
+    flex: 0 0 auto;
+    height: clamp(260px, 44svh, 400px);
+    min-height: 260px;
+  }
+
+  .hero__bg-wrapper {
+    clip-path: inset(0) !important;
+    transform: none !important;
+  }
+
+  .hero__bg-wrapper img {
+    object-fit: cover;
+    object-position: center 28%;
+    transform: none;
+    width: 100%;
+    height: 100%;
+  }
+
+  .hero__gradient-overlay {
+    background: linear-gradient(
+      180deg,
+      rgba(26, 15, 10, 0.08) 0%,
+      rgba(26, 15, 10, 0.25) 50%,
+      var(--color-espresso, #1a0f0a) 100%
+    );
+  }
+
+  .hero::after {
+    display: none;
+  }
+
+  .hero__container {
+    position: relative;
+    flex: 1 1 auto;
+    justify-content: center;
+    align-items: center;
+    padding: clamp(28px, 7vw, 40px) var(--shell-padding, 16px) clamp(56px, 12vw, 80px);
+    background-color: var(--color-espresso, #1a0f0a);
+  }
+
+  .hero__content-side {
+    padding-top: 0;
+  }
+
+  .hero__scroll-indicator {
+    bottom: 20px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero__bg-wrapper, .hero__cta {
+    transition: none !important;
+  }
+  .hero__scroll-line {
+    animation: none;
+  }
+}

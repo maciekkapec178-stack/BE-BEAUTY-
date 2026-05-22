@@ -1,0 +1,2623 @@
+{
+  "scrapedAt": "2026-05-20T22:17:02.154Z",
+  "sourceUrl": "https://booksy.com/pl-pl/102760_be-beauty-salon-urody-brow-academy-malgorzata-szymajda_salon-kosmetyczny_15570_luban",
+  "business": {
+    "id": "102760",
+    "name": "BE BEAUTY Salon Urody & BROW ACADEMY Małgorzata Szymajda",
+    "description": "Pomożemy wydobyć Twoje naturalne piękno i stworzyć najlepszą wersję Ciebie. Gwarantujemy\r\nszeroki wybór certyfikowanych zabiegów, pełne bezpieczeństwo, indywidualne poradnictwo i zawsze\r\npiękny efekt. Zapraszamy!",
+    "address": {
+      "street": "Fabryczna Osiedle 8/3, 59-800, Lubań",
+      "city": "dolnośląskie",
+      "postalCode": "59-800",
+      "country": "pl"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 51.1260664,
+      "longitude": 15.28132092
+    },
+    "telephone": null,
+    "image": "https://d375139ucebi94.cloudfront.net/region2/pl/102760/biz_photo/10933c4a08184b6e88d2b1b61c69db-be-beauty-salon-urody-brow-aca-biz-photo-d83a7a66da3a450c93c97fab8e3b0d-booksy.jpeg",
+    "logo": "https://d375139ucebi94.cloudfront.net/region2/pl/102760/logo/0759356e01a844d2a844a5c0757c57-be-beauty-salon-urody-brow-aca-logo-b548ca8399cf42e0814fa016564862-booksy.jpeg",
+    "url": "https://booksy.com/pl-pl/102760_be-beauty-salon-urody-brow-academy-malgorzata-szymajda_salon-kosmetyczny_15570_luban",
+    "rating": {
+      "value": 5,
+      "count": 119
+    },
+    "priceRange": "PLN 100 - 400",
+    "openingHours": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday"
+        ],
+        "opens": "08:30",
+        "closes": "17:30"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Tuesday"
+        ],
+        "opens": "08:15",
+        "closes": "17:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Wednesday",
+          "Friday"
+        ],
+        "opens": "08:15",
+        "closes": "17:30"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Thursday"
+        ],
+        "opens": "08:30",
+        "closes": "18:00"
+      }
+    ]
+  },
+  "amenities": [
+    "Parking",
+    "Internet (Wi-Fi)",
+    "Akceptacja kart płatniczych",
+    "Program lojalnościowy"
+  ],
+  "categories": [
+    {
+      "name": "Popularne usługi",
+      "serviceCount": 3,
+      "services": [
+        {
+          "id": "1454229",
+          "category": "Popularne usługi",
+          "name": "SPA Pedicure komplet z hybrydą",
+          "description": null,
+          "price": null,
+          "priceLabel": "160,00&nbsp;zł+",
+          "duration": {
+            "minutes": 60,
+            "label": "1g"
+          }
+        },
+        {
+          "id": "1955736",
+          "category": "Popularne usługi",
+          "name": "Manicure żelowy uzupełnienie do 4yg.",
+          "description": null,
+          "price": null,
+          "priceLabel": "160,00&nbsp;zł+",
+          "duration": {
+            "minutes": 90,
+            "label": "1g 30min"
+          }
+        },
+        {
+          "id": "1454233",
+          "category": "Popularne usługi",
+          "name": "Geometria brwi z koloryzacją henną pudrową/farb...",
+          "description": null,
+          "price": null,
+          "priceLabel": "90,00&nbsp;zł+",
+          "duration": {
+            "minutes": 30,
+            "label": "30min"
+          }
+        }
+      ]
+    },
+    {
+      "name": "STYLIZACJA PAZNOKCI",
+      "serviceCount": 17,
+      "services": [
+        {
+          "id": "1454232",
+          "category": "STYLIZACJA PAZNOKCI",
+          "name": "Shea Manicure",
+          "description": null,
+          "price": null,
+          "priceLabel": "100,00&nbsp;zł+",
+          "duration": {
+            "minutes": 30,
+            "label": "30min"
+          }
+        },
+        {
+          "id": "1454241",
+          "category": "STYLIZACJA PAZNOKCI",
+          "name": "Manicure klasyczny",
+          "description": null,
+          "price": null,
+          "priceLabel": "80,00&nbsp;zł+",
+          "duration": {
+            "minutes": 30,
+            "label": "30min"
+          }
+        },
+        {
+          "id": "1454247",
+          "category": "STYLIZACJA PAZNOKCI",
+          "name": "Manicure hybrydowy KOLOR",
+          "description": null,
+          "price": null,
+          "priceLabel": "130,00&nbsp;zł+",
+          "duration": {
+            "minutes": 70,
+            "label": "1g 10min"
+          }
+        },
+        {
+          "id": "1454249",
+          "category": "STYLIZACJA PAZNOKCI",
+          "name": "Manicure hybrydowy SAMA BAZA",
+          "description": null,
+          "price": null,
+          "priceLabel": "120,00&nbsp;zł+",
+          "duration": {
+            "minutes": 60,
+            "label": "1g"
+          }
+        },
+        {
+          "id": "1955736",
+          "category": "STYLIZACJA PAZNOKCI",
+          "name": "Manicure żelowy uzupełnienie do 4yg.",
+          "description": null,
+          "price": null,
+          "priceLabel": "160,00&nbsp;zł+",
+          "duration": {
+            "minutes": 90,
+            "label": "1g 30min"
+          }
+        },
+        {
+          "id": "1955738",
+          "category": "STYLIZACJA PAZNOKCI",
+          "name": "Manicure żelowy uzupełnienie DŁUGIE",
+          "description": null,
+          "price": null,
+          "priceLabel": "170,00&nbsp;zł+",
+          "duration": {
+            "minutes": 105,
+            "label": "1g 45min"
+          }
+        },
+        {
+          "id": "2319228",
+          "category": "STYLIZACJA PAZNOKCI",
+          "name": "Manicure żelowy z przedłużeniem KRÓTKIE",
+          "description": null,
+          "price": null,
+          "priceLabel": "190,00&nbsp;zł+",
+          "duration": {
+            "minutes": 105,
+            "label": "1g 45min"
+          }
+        },
+        {
+          "id": "3682650",
+          "category": "STYLIZACJA PAZNOKCI",
+          "name": "Manicure żelowy naturalna płytka/uzupeł.KRÓTKIE",
+          "description": null,
+          "price": null,
+          "priceLabel": "150,00&nbsp;zł+",
+          "duration": {
+            "minutes": 70,
+            "label": "1g 10min"
+          }
+        },
+        {
+          "id": "4796009",
+          "category": "STYLIZACJA PAZNOKCI",
+          "name": "Rekonstrukcja paznokci obgryzionych-przedłużenie",
+          "description": null,
+          "price": null,
+          "priceLabel": "230,00&nbsp;zł+",
+          "duration": {
+            "minutes": 120,
+            "label": "2g"
+          }
+        },
+        {
+          "id": "4797805",
+          "category": "STYLIZACJA PAZNOKCI",
+          "name": "Manicure hybrydowy KOLOR DŁUGIE",
+          "description": null,
+          "price": null,
+          "priceLabel": "140,00&nbsp;zł+",
+          "duration": {
+            "minutes": 70,
+            "label": "1g 10min"
+          }
+        },
+        {
+          "id": "5196692",
+          "category": "STYLIZACJA PAZNOKCI",
+          "name": "Usunięcie Starej Stylizacji + Manicure Klasyczny",
+          "description": null,
+          "price": null,
+          "priceLabel": "90,00&nbsp;zł+",
+          "duration": {
+            "minutes": 40,
+            "label": "40min"
+          }
+        },
+        {
+          "id": "5681894",
+          "category": "STYLIZACJA PAZNOKCI",
+          "name": "Manicure żelowy z przedłużeniem ŚREDNIE",
+          "description": null,
+          "price": null,
+          "priceLabel": "200,00&nbsp;zł+",
+          "duration": {
+            "minutes": 120,
+            "label": "2g"
+          }
+        },
+        {
+          "id": "6392666",
+          "category": "STYLIZACJA PAZNOKCI",
+          "name": "Laminacja Paznokci Yokaba",
+          "description": null,
+          "price": null,
+          "priceLabel": "100,00&nbsp;zł",
+          "duration": {
+            "minutes": 30,
+            "label": "30min"
+          }
+        },
+        {
+          "id": "6392672",
+          "category": "STYLIZACJA PAZNOKCI",
+          "name": "Laminacja Paznokci Yokaba Pakiet 4 zabiegi",
+          "description": null,
+          "price": null,
+          "priceLabel": "320,00&nbsp;zł",
+          "duration": {
+            "minutes": 30,
+            "label": "30min"
+          }
+        },
+        {
+          "id": "3684727",
+          "category": "STYLIZACJA PAZNOKCI",
+          "name": "Zdobienie FRENCH/OMBRE KOLOR",
+          "description": null,
+          "price": null,
+          "priceLabel": "20,00&nbsp;zł+",
+          "duration": {
+            "minutes": 15,
+            "label": "15min"
+          }
+        },
+        {
+          "id": "4190490",
+          "category": "STYLIZACJA PAZNOKCI",
+          "name": "Stylizacja po upływie 4 tyg.",
+          "description": null,
+          "price": null,
+          "priceLabel": "20,00&nbsp;zł+",
+          "duration": {
+            "minutes": 15,
+            "label": "15min"
+          }
+        },
+        {
+          "id": "1454209",
+          "category": "STYLIZACJA PAZNOKCI",
+          "name": "Usunięcie starej stylizacji przed nową aplikacją",
+          "description": null,
+          "price": null,
+          "priceLabel": "40,00&nbsp;zł+",
+          "duration": {
+            "minutes": 20,
+            "label": "20min"
+          }
+        }
+      ]
+    },
+    {
+      "name": "PEDICURE",
+      "serviceCount": 3,
+      "services": [
+        {
+          "id": "1454229",
+          "category": "PEDICURE",
+          "name": "SPA Pedicure komplet z hybrydą",
+          "description": null,
+          "price": null,
+          "priceLabel": "160,00&nbsp;zł+",
+          "duration": {
+            "minutes": 60,
+            "label": "1g"
+          }
+        },
+        {
+          "id": "1454231",
+          "category": "PEDICURE",
+          "name": "Pedicure klasyczny bez hybrydy",
+          "description": null,
+          "price": null,
+          "priceLabel": "120,00&nbsp;zł+",
+          "duration": {
+            "minutes": 40,
+            "label": "40min"
+          }
+        },
+        {
+          "id": "2691397",
+          "category": "PEDICURE",
+          "name": "Pedicure hybrydowy (same paznokcie)",
+          "description": null,
+          "price": null,
+          "priceLabel": "140,00&nbsp;zł+",
+          "duration": {
+            "minutes": 50,
+            "label": "50min"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WYBIELANIE ZĘBÓW",
+      "serviceCount": 2,
+      "services": [
+        {
+          "id": "1454300",
+          "category": "WYBIELANIE ZĘBÓW",
+          "name": "White Smile PRO 3 sesje",
+          "description": null,
+          "price": null,
+          "priceLabel": "420,00&nbsp;zł+",
+          "duration": {
+            "minutes": 100,
+            "label": "1g 40min"
+          }
+        },
+        {
+          "id": "1454301",
+          "category": "WYBIELANIE ZĘBÓW",
+          "name": "White Smile 2 sesje",
+          "description": null,
+          "price": null,
+          "priceLabel": "350,00&nbsp;zł+",
+          "duration": {
+            "minutes": 70,
+            "label": "1g 10min"
+          }
+        }
+      ]
+    },
+    {
+      "name": "MAKIJAŻ PERMANENTNY",
+      "serviceCount": 8,
+      "services": [
+        {
+          "id": "1454225",
+          "category": "MAKIJAŻ PERMANENTNY",
+          "name": "Korekta brwi (stary makijaż) do 2 lat",
+          "description": null,
+          "price": null,
+          "priceLabel": "450,00&nbsp;zł+",
+          "duration": {
+            "minutes": 120,
+            "label": "2g"
+          }
+        },
+        {
+          "id": "6295323",
+          "category": "MAKIJAŻ PERMANENTNY",
+          "name": "Korekta brwi (Cover)",
+          "description": null,
+          "price": null,
+          "priceLabel": "700,00&nbsp;zł+",
+          "duration": {
+            "minutes": 150,
+            "label": "2g 30min"
+          }
+        },
+        {
+          "id": "6991058",
+          "category": "MAKIJAŻ PERMANENTNY",
+          "name": "Dopigmentowanie dodatkowe",
+          "description": null,
+          "price": null,
+          "priceLabel": "200,00&nbsp;zł",
+          "duration": {
+            "minutes": 60,
+            "label": "1g"
+          }
+        },
+        {
+          "id": "5564103",
+          "category": "MAKIJAŻ PERMANENTNY",
+          "name": "Dopigmentowanie ust",
+          "description": null,
+          "price": null,
+          "priceLabel": "200,00&nbsp;zł+",
+          "duration": {
+            "minutes": 90,
+            "label": "1g 30min"
+          }
+        },
+        {
+          "id": "5564101",
+          "category": "MAKIJAŻ PERMANENTNY",
+          "name": "Perfect LIPS",
+          "description": null,
+          "price": null,
+          "priceLabel": "700,00&nbsp;zł+",
+          "duration": {
+            "minutes": 180,
+            "label": "3g"
+          }
+        },
+        {
+          "id": "1454280",
+          "category": "MAKIJAŻ PERMANENTNY",
+          "name": "Brwi pudrowe/ombre",
+          "description": null,
+          "price": null,
+          "priceLabel": "750,00&nbsp;zł+",
+          "duration": {
+            "minutes": 180,
+            "label": "3g"
+          }
+        },
+        {
+          "id": "3684420",
+          "category": "MAKIJAŻ PERMANENTNY",
+          "name": "Dopigmentowanie brwi do 12tyg.",
+          "description": null,
+          "price": null,
+          "priceLabel": "150,00&nbsp;zł+",
+          "duration": {
+            "minutes": 60,
+            "label": "1g"
+          }
+        },
+        {
+          "id": "7383705",
+          "category": "MAKIJAŻ PERMANENTNY",
+          "name": "Usuwanie/rozjaśnianie PMU",
+          "description": null,
+          "price": null,
+          "priceLabel": "350,00&nbsp;zł",
+          "duration": {
+            "minutes": 45,
+            "label": "45min"
+          }
+        }
+      ]
+    },
+    {
+      "name": "STYLIZACJA BRWI",
+      "serviceCount": 4,
+      "services": [
+        {
+          "id": "1454233",
+          "category": "STYLIZACJA BRWI",
+          "name": "Geometria brwi z koloryzacją henną pudrową/farb...",
+          "description": null,
+          "price": null,
+          "priceLabel": "90,00&nbsp;zł+",
+          "duration": {
+            "minutes": 30,
+            "label": "30min"
+          }
+        },
+        {
+          "id": "1454251",
+          "category": "STYLIZACJA BRWI",
+          "name": "Laminacja brwi z koloryzacją",
+          "description": null,
+          "price": null,
+          "priceLabel": "150,00&nbsp;zł+",
+          "duration": {
+            "minutes": 60,
+            "label": "1g"
+          }
+        },
+        {
+          "id": "1454306",
+          "category": "STYLIZACJA BRWI",
+          "name": "Laminacja brwi bez koloryzacji",
+          "description": null,
+          "price": null,
+          "priceLabel": "130,00&nbsp;zł+",
+          "duration": {
+            "minutes": 40,
+            "label": "40min"
+          }
+        },
+        {
+          "id": "1454269",
+          "category": "STYLIZACJA BRWI",
+          "name": "SPA dla brwi",
+          "description": null,
+          "price": null,
+          "priceLabel": "50,00&nbsp;zł+",
+          "duration": {
+            "minutes": 30,
+            "label": "30min"
+          }
+        }
+      ]
+    },
+    {
+      "name": "STYLIZACJA RZĘS",
+      "serviceCount": 6,
+      "services": [
+        {
+          "id": "1454282",
+          "category": "STYLIZACJA RZĘS",
+          "name": "Koreańska Laminacja/Lifting rzęs z koloryzacją",
+          "description": null,
+          "price": null,
+          "priceLabel": "160,00&nbsp;zł+",
+          "duration": {
+            "minutes": 60,
+            "label": "1g"
+          }
+        },
+        {
+          "id": "1454305",
+          "category": "STYLIZACJA RZĘS",
+          "name": "Relaksacja rzęs",
+          "description": null,
+          "price": null,
+          "priceLabel": "160,00&nbsp;zł+",
+          "duration": {
+            "minutes": 60,
+            "label": "1g"
+          }
+        },
+        {
+          "id": "6702732",
+          "category": "STYLIZACJA RZĘS",
+          "name": "Korean LAMI + GEOMETRIA BRWI",
+          "description": null,
+          "price": null,
+          "priceLabel": "230,00&nbsp;zł",
+          "duration": {
+            "minutes": 75,
+            "label": "1g 15min"
+          }
+        },
+        {
+          "id": "6702735",
+          "category": "STYLIZACJA RZĘS",
+          "name": "Korean LAMI + LAMINACJA BRWI",
+          "description": null,
+          "price": null,
+          "priceLabel": "290,00&nbsp;zł",
+          "duration": {
+            "minutes": 75,
+            "label": "1g 15min"
+          }
+        },
+        {
+          "id": "1454302",
+          "category": "STYLIZACJA RZĘS",
+          "name": "Koloryzacja rzęs farbką",
+          "description": null,
+          "price": null,
+          "priceLabel": "30,00&nbsp;zł+",
+          "duration": {
+            "minutes": 20,
+            "label": "20min"
+          }
+        },
+        {
+          "id": "1454304",
+          "category": "STYLIZACJA RZĘS",
+          "name": "Odżywianie rzęs botoxem + koloryzacja",
+          "description": null,
+          "price": null,
+          "priceLabel": "60,00&nbsp;zł+",
+          "duration": {
+            "minutes": 20,
+            "label": "20min"
+          }
+        }
+      ]
+    },
+    {
+      "name": "DEPILACJA WOSKIEM",
+      "serviceCount": 7,
+      "services": [
+        {
+          "id": "1454296",
+          "category": "DEPILACJA WOSKIEM",
+          "name": "Broda",
+          "description": null,
+          "price": null,
+          "priceLabel": "20,00&nbsp;zł+",
+          "duration": {
+            "minutes": 10,
+            "label": "10min"
+          }
+        },
+        {
+          "id": "1454297",
+          "category": "DEPILACJA WOSKIEM",
+          "name": "Brwi",
+          "description": null,
+          "price": null,
+          "priceLabel": "30,00&nbsp;zł+",
+          "duration": {
+            "minutes": 15,
+            "label": "15min"
+          }
+        },
+        {
+          "id": "1454230",
+          "category": "DEPILACJA WOSKIEM",
+          "name": "Nos",
+          "description": null,
+          "price": null,
+          "priceLabel": "20,00&nbsp;zł+",
+          "duration": {
+            "minutes": 10,
+            "label": "10min"
+          }
+        },
+        {
+          "id": "1454295",
+          "category": "DEPILACJA WOSKIEM",
+          "name": "Pachy",
+          "description": null,
+          "price": null,
+          "priceLabel": "40,00&nbsp;zł+",
+          "duration": {
+            "minutes": 15,
+            "label": "15min"
+          }
+        },
+        {
+          "id": "1454298",
+          "category": "DEPILACJA WOSKIEM",
+          "name": "Policzki",
+          "description": null,
+          "price": null,
+          "priceLabel": "30,00&nbsp;zł+",
+          "duration": {
+            "minutes": 20,
+            "label": "20min"
+          }
+        },
+        {
+          "id": "1454285",
+          "category": "DEPILACJA WOSKIEM",
+          "name": "Ręce",
+          "description": null,
+          "price": null,
+          "priceLabel": "80,00&nbsp;zł+",
+          "duration": {
+            "minutes": 45,
+            "label": "45min"
+          }
+        },
+        {
+          "id": "1454299",
+          "category": "DEPILACJA WOSKIEM",
+          "name": "Wąsik",
+          "description": null,
+          "price": null,
+          "priceLabel": "20,00&nbsp;zł+",
+          "duration": {
+            "minutes": 10,
+            "label": "10min"
+          }
+        }
+      ]
+    },
+    {
+      "name": "BROWBER Męska stylizacja brwi i zarostu",
+      "serviceCount": 5,
+      "services": [
+        {
+          "id": "1454199",
+          "category": "BROWBER Męska stylizacja brwi i zarostu",
+          "name": "Laminacja brwi",
+          "description": null,
+          "price": null,
+          "priceLabel": "130,00&nbsp;zł+",
+          "duration": {
+            "minutes": 40,
+            "label": "40min"
+          }
+        },
+        {
+          "id": "1454204",
+          "category": "BROWBER Męska stylizacja brwi i zarostu",
+          "name": "Depilacja nosa/uszu",
+          "description": null,
+          "price": null,
+          "priceLabel": "30,00&nbsp;zł+",
+          "duration": {
+            "minutes": 15,
+            "label": "15min"
+          }
+        },
+        {
+          "id": "1454201",
+          "category": "BROWBER Męska stylizacja brwi i zarostu",
+          "name": "Korekta kształtu brwi + koloryzacja",
+          "description": null,
+          "price": null,
+          "priceLabel": "80,00&nbsp;zł+",
+          "duration": {
+            "minutes": 50,
+            "label": "50min"
+          }
+        },
+        {
+          "id": "1454200",
+          "category": "BROWBER Męska stylizacja brwi i zarostu",
+          "name": "Korekta kształtu brwi/przerzedzenie",
+          "description": null,
+          "price": null,
+          "priceLabel": "50,00&nbsp;zł+",
+          "duration": {
+            "minutes": 30,
+            "label": "30min"
+          }
+        },
+        {
+          "id": "1454198",
+          "category": "BROWBER Męska stylizacja brwi i zarostu",
+          "name": "Laminacja brwi z koloryzacją",
+          "description": null,
+          "price": null,
+          "priceLabel": "150,00&nbsp;zł+",
+          "duration": {
+            "minutes": 50,
+            "label": "50min"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ZABIEGI NA CIAŁO",
+      "serviceCount": 1,
+      "services": [
+        {
+          "id": "2436495",
+          "category": "ZABIEGI NA CIAŁO",
+          "name": "Body Contour 1 Zabieg 45min",
+          "description": null,
+          "price": null,
+          "priceLabel": "149,00&nbsp;zł+",
+          "duration": {
+            "minutes": 45,
+            "label": "45min"
+          }
+        }
+      ]
+    },
+    {
+      "name": "💎 TOOTH GEMS 💎 BIŻUTERIA NAZĘBNA",
+      "serviceCount": 6,
+      "services": [
+        {
+          "id": "6226587",
+          "category": "💎 TOOTH GEMS 💎 BIŻUTERIA NAZĘBNA",
+          "name": "1 KRYSZTAŁ OKRĄGŁY",
+          "description": null,
+          "price": null,
+          "priceLabel": "90,00&nbsp;zł+",
+          "duration": {
+            "minutes": 15,
+            "label": "15min"
+          }
+        },
+        {
+          "id": "6227499",
+          "category": "💎 TOOTH GEMS 💎 BIŻUTERIA NAZĘBNA",
+          "name": "1 KRYSZTAŁ KSZTAŁT",
+          "description": null,
+          "price": null,
+          "priceLabel": "100,00&nbsp;zł+",
+          "duration": {
+            "minutes": 15,
+            "label": "15min"
+          }
+        },
+        {
+          "id": "6227507",
+          "category": "💎 TOOTH GEMS 💎 BIŻUTERIA NAZĘBNA",
+          "name": "2 KRYSZTAŁY",
+          "description": null,
+          "price": null,
+          "priceLabel": "160,00&nbsp;zł+",
+          "duration": {
+            "minutes": 15,
+            "label": "15min"
+          }
+        },
+        {
+          "id": "6227509",
+          "category": "💎 TOOTH GEMS 💎 BIŻUTERIA NAZĘBNA",
+          "name": "3 KRYSZTAŁY",
+          "description": null,
+          "price": null,
+          "priceLabel": "200,00&nbsp;zł+",
+          "duration": {
+            "minutes": 15,
+            "label": "15min"
+          }
+        },
+        {
+          "id": "6227512",
+          "category": "💎 TOOTH GEMS 💎 BIŻUTERIA NAZĘBNA",
+          "name": "4 KRZYSZTAŁY",
+          "description": null,
+          "price": null,
+          "priceLabel": "250,00&nbsp;zł+",
+          "duration": {
+            "minutes": 20,
+            "label": "20min"
+          }
+        },
+        {
+          "id": "6227517",
+          "category": "💎 TOOTH GEMS 💎 BIŻUTERIA NAZĘBNA",
+          "name": "5-6 KRYSZTAŁÓW",
+          "description": null,
+          "price": null,
+          "priceLabel": "300,00&nbsp;zł+",
+          "duration": {
+            "minutes": 25,
+            "label": "25min"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ZABIEGI PIELĘGNACYJNE LARENS",
+      "serviceCount": 12,
+      "services": [
+        {
+          "id": "1454216",
+          "category": "ZABIEGI PIELĘGNACYJNE LARENS",
+          "name": "Zabieg Terapeutyczny dla cer naczyniowych i trą...",
+          "description": null,
+          "price": null,
+          "priceLabel": "300,00&nbsp;zł+",
+          "duration": {
+            "minutes": 60,
+            "label": "1g"
+          }
+        },
+        {
+          "id": "1454217",
+          "category": "ZABIEGI PIELĘGNACYJNE LARENS",
+          "name": "Zabieg dla cery przetłuszczającej się i trądzik...",
+          "description": null,
+          "price": null,
+          "priceLabel": "200,00&nbsp;zł+",
+          "duration": {
+            "minutes": 45,
+            "label": "45min"
+          }
+        },
+        {
+          "id": "1454218",
+          "category": "ZABIEGI PIELĘGNACYJNE LARENS",
+          "name": "Zabieg dla cery naczyniowej (podstawowy)",
+          "description": null,
+          "price": null,
+          "priceLabel": "200,00&nbsp;zł+",
+          "duration": {
+            "minutes": 45,
+            "label": "45min"
+          }
+        },
+        {
+          "id": "1454219",
+          "category": "ZABIEGI PIELĘGNACYJNE LARENS",
+          "name": "Zabieg Larens hydrating (nawilżający)",
+          "description": null,
+          "price": null,
+          "priceLabel": "200,00&nbsp;zł+",
+          "duration": {
+            "minutes": 45,
+            "label": "45min"
+          }
+        },
+        {
+          "id": "1454222",
+          "category": "ZABIEGI PIELĘGNACYJNE LARENS",
+          "name": "Zabieg LIPOCOLL (lifting)",
+          "description": null,
+          "price": null,
+          "priceLabel": "320,00&nbsp;zł+",
+          "duration": {
+            "minutes": 70,
+            "label": "1g 10min"
+          }
+        },
+        {
+          "id": "1454223",
+          "category": "ZABIEGI PIELĘGNACYJNE LARENS",
+          "name": "SEKRET WIECZNEJ MŁODOŚCI MEZO",
+          "description": null,
+          "price": null,
+          "priceLabel": "350,00&nbsp;zł+",
+          "duration": {
+            "minutes": 75,
+            "label": "1g 15min"
+          }
+        },
+        {
+          "id": "1454224",
+          "category": "ZABIEGI PIELĘGNACYJNE LARENS",
+          "name": "SEKRET WIECZNEJ MŁODOŚCI",
+          "description": null,
+          "price": null,
+          "priceLabel": "270,00&nbsp;zł+",
+          "duration": {
+            "minutes": 75,
+            "label": "1g 15min"
+          }
+        },
+        {
+          "id": "3832342",
+          "category": "ZABIEGI PIELĘGNACYJNE LARENS",
+          "name": "Zabieg silnie odmładzajacy z ampułką ANTI-AGING",
+          "description": null,
+          "price": null,
+          "priceLabel": "300,00&nbsp;zł+",
+          "duration": {
+            "minutes": 75,
+            "label": "1g 15min"
+          }
+        },
+        {
+          "id": "6280097",
+          "category": "ZABIEGI PIELĘGNACYJNE LARENS",
+          "name": "Zabieg ReHarmony Skin Treatment",
+          "description": null,
+          "price": null,
+          "priceLabel": "230,00&nbsp;zł+",
+          "duration": {
+            "minutes": 60,
+            "label": "1g"
+          }
+        },
+        {
+          "id": "6326832",
+          "category": "ZABIEGI PIELĘGNACYJNE LARENS",
+          "name": "ReHarmony ANTI AGING Skin Treatment",
+          "description": null,
+          "price": null,
+          "priceLabel": "280,00&nbsp;zł",
+          "duration": {
+            "minutes": 60,
+            "label": "1g"
+          }
+        },
+        {
+          "id": "6489187",
+          "category": "ZABIEGI PIELĘGNACYJNE LARENS",
+          "name": "Zabieg DETOX z kwasem ferulowym",
+          "description": null,
+          "price": null,
+          "priceLabel": "250,00&nbsp;zł",
+          "duration": {
+            "minutes": 70,
+            "label": "1g 10min"
+          }
+        },
+        {
+          "id": "6489193",
+          "category": "ZABIEGI PIELĘGNACYJNE LARENS",
+          "name": "Zabieg LIPOCOLL Mezo (z mikronakłuwaniem)",
+          "description": null,
+          "price": null,
+          "priceLabel": "380,00&nbsp;zł",
+          "duration": {
+            "minutes": 75,
+            "label": "1g 15min"
+          }
+        }
+      ]
+    },
+    {
+      "name": "GENEO innowacyjna pielęgnacja twarzy",
+      "serviceCount": 3,
+      "services": [
+        {
+          "id": "1836201",
+          "category": "GENEO innowacyjna pielęgnacja twarzy",
+          "name": "GENEO BODY 2 kapsułki",
+          "description": null,
+          "price": null,
+          "priceLabel": "600,00&nbsp;zł+",
+          "duration": {
+            "minutes": 70,
+            "label": "1g 10min"
+          }
+        },
+        {
+          "id": "1940230",
+          "category": "GENEO innowacyjna pielęgnacja twarzy",
+          "name": "GENEO pielęgnacja 3w1 (twarz-szyja-dekolt)",
+          "description": null,
+          "price": null,
+          "priceLabel": "350,00&nbsp;zł+",
+          "duration": {
+            "minutes": 60,
+            "label": "1g"
+          }
+        },
+        {
+          "id": "6405219",
+          "category": "GENEO innowacyjna pielęgnacja twarzy",
+          "name": "GENEO PREMIUM (twarz-szyja-dekolt)",
+          "description": null,
+          "price": null,
+          "priceLabel": "400,00&nbsp;zł",
+          "duration": {
+            "minutes": 60,
+            "label": "1g"
+          }
+        }
+      ]
+    },
+    {
+      "name": "OCZYSZCZANIE TWARZY💦",
+      "serviceCount": 2,
+      "services": [
+        {
+          "id": "1454257",
+          "category": "OCZYSZCZANIE TWARZY💦",
+          "name": "Aqua Peel 6w1 (oczyszczanie wodorowe) 6 etapów,...",
+          "description": null,
+          "price": null,
+          "priceLabel": "270,00&nbsp;zł+",
+          "duration": {
+            "minutes": 60,
+            "label": "1g"
+          }
+        },
+        {
+          "id": "4113075",
+          "category": "OCZYSZCZANIE TWARZY💦",
+          "name": "BALANCE oczyszczanie twarzy dla młodzieży",
+          "description": null,
+          "price": null,
+          "priceLabel": "230,00&nbsp;zł+",
+          "duration": {
+            "minutes": 60,
+            "label": "1g"
+          }
+        }
+      ]
+    },
+    {
+      "name": "MEZOTERAPIA IGŁOWA",
+      "serviceCount": 2,
+      "services": [
+        {
+          "id": "1711633",
+          "category": "MEZOTERAPIA IGŁOWA",
+          "name": "Mezoterapia igłowa",
+          "description": null,
+          "price": null,
+          "priceLabel": "350,00&nbsp;zł+",
+          "duration": {
+            "minutes": 45,
+            "label": "45min"
+          }
+        },
+        {
+          "id": "1711641",
+          "category": "MEZOTERAPIA IGŁOWA",
+          "name": "Mezoterapia igłowa",
+          "description": null,
+          "price": null,
+          "priceLabel": "400,00&nbsp;zł+",
+          "duration": {
+            "minutes": 45,
+            "label": "45min"
+          }
+        }
+      ]
+    },
+    {
+      "name": "MEZOTERAPIA MIKROIGŁOWA DermaPen",
+      "serviceCount": 4,
+      "services": [
+        {
+          "id": "1454273",
+          "category": "MEZOTERAPIA MIKROIGŁOWA DermaPen",
+          "name": "Dermapen twarz + szyja + dekolt",
+          "description": null,
+          "price": null,
+          "priceLabel": "350,00&nbsp;zł+",
+          "duration": {
+            "minutes": 70,
+            "label": "1g 10min"
+          }
+        },
+        {
+          "id": "1454313",
+          "category": "MEZOTERAPIA MIKROIGŁOWA DermaPen",
+          "name": "Dermapen twarz",
+          "description": null,
+          "price": null,
+          "priceLabel": "250,00&nbsp;zł+",
+          "duration": {
+            "minutes": 60,
+            "label": "1g"
+          }
+        },
+        {
+          "id": "3937412",
+          "category": "MEZOTERAPIA MIKROIGŁOWA DermaPen",
+          "name": "DermaPen+ BotoxAlternative ZENA",
+          "description": null,
+          "price": null,
+          "priceLabel": "350,00&nbsp;zł+",
+          "duration": {
+            "minutes": 45,
+            "label": "45min"
+          }
+        },
+        {
+          "id": "3937737",
+          "category": "MEZOTERAPIA MIKROIGŁOWA DermaPen",
+          "name": "DermaPen + Hyalnano Filling ZENA",
+          "description": null,
+          "price": null,
+          "priceLabel": "380,00&nbsp;zł+",
+          "duration": {
+            "minutes": 45,
+            "label": "45min"
+          }
+        }
+      ]
+    },
+    {
+      "name": "BIOREWITALIZACJA CHEMICZNA TWARZY",
+      "serviceCount": 4,
+      "services": [
+        {
+          "id": "1454226",
+          "category": "BIOREWITALIZACJA CHEMICZNA TWARZY",
+          "name": "PQ Age Evolution seria 4 zabiegi",
+          "description": null,
+          "price": null,
+          "priceLabel": "800,00&nbsp;zł+",
+          "duration": {
+            "minutes": 45,
+            "label": "45min"
+          }
+        },
+        {
+          "id": "1454228",
+          "category": "BIOREWITALIZACJA CHEMICZNA TWARZY",
+          "name": "PQ Age Evolution",
+          "description": null,
+          "price": null,
+          "priceLabel": "250,00&nbsp;zł+",
+          "duration": {
+            "minutes": 30,
+            "label": "30min"
+          }
+        },
+        {
+          "id": "1454291",
+          "category": "BIOREWITALIZACJA CHEMICZNA TWARZY",
+          "name": "BioRePeelCl3 2ml Peeling Chemiczny",
+          "description": null,
+          "price": null,
+          "priceLabel": "250,00&nbsp;zł+",
+          "duration": {
+            "minutes": 60,
+            "label": "1g"
+          }
+        },
+        {
+          "id": "1711413",
+          "category": "BIOREWITALIZACJA CHEMICZNA TWARZY",
+          "name": "Retix C - zabieg ANTI-AGING z retinolem i wit.C",
+          "description": null,
+          "price": null,
+          "priceLabel": "250,00&nbsp;zł+",
+          "duration": {
+            "minutes": 60,
+            "label": "1g"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ALGAE PEELING",
+      "serviceCount": 1,
+      "services": [
+        {
+          "id": "3937742",
+          "category": "ALGAE PEELING",
+          "name": "Algae Peeling ZENA",
+          "description": null,
+          "price": null,
+          "priceLabel": "300,00&nbsp;zł+",
+          "duration": {
+            "minutes": 60,
+            "label": "1g"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Zabiegi NANO-NEEDLES ",
+      "serviceCount": 3,
+      "services": [
+        {
+          "id": "6718397",
+          "category": "Zabiegi NANO-NEEDLES ",
+          "name": "NANO-NEEDLES \"Lifting i ujędrnienie\"",
+          "description": null,
+          "price": null,
+          "priceLabel": "350,00&nbsp;zł",
+          "duration": {
+            "minutes": 45,
+            "label": "45min"
+          }
+        },
+        {
+          "id": "6718402",
+          "category": "Zabiegi NANO-NEEDLES ",
+          "name": "NANO-NEEDLES \"Przebarwienia\"",
+          "description": null,
+          "price": null,
+          "priceLabel": "350,00&nbsp;zł",
+          "duration": {
+            "minutes": 45,
+            "label": "45min"
+          }
+        },
+        {
+          "id": "6718422",
+          "category": "Zabiegi NANO-NEEDLES ",
+          "name": "NANO-NEEDLES \"Pobudzenie do odnowy\"",
+          "description": null,
+          "price": null,
+          "priceLabel": "350,00&nbsp;zł",
+          "duration": {
+            "minutes": 45,
+            "label": "45min"
+          }
+        }
+      ]
+    }
+  ],
+  "servicesFlat": [
+    {
+      "id": "1454229",
+      "category": "Popularne usługi",
+      "name": "SPA Pedicure komplet z hybrydą",
+      "description": null,
+      "price": null,
+      "priceLabel": "160,00&nbsp;zł+",
+      "duration": {
+        "minutes": 60,
+        "label": "1g"
+      }
+    },
+    {
+      "id": "1955736",
+      "category": "Popularne usługi",
+      "name": "Manicure żelowy uzupełnienie do 4yg.",
+      "description": null,
+      "price": null,
+      "priceLabel": "160,00&nbsp;zł+",
+      "duration": {
+        "minutes": 90,
+        "label": "1g 30min"
+      }
+    },
+    {
+      "id": "1454233",
+      "category": "Popularne usługi",
+      "name": "Geometria brwi z koloryzacją henną pudrową/farb...",
+      "description": null,
+      "price": null,
+      "priceLabel": "90,00&nbsp;zł+",
+      "duration": {
+        "minutes": 30,
+        "label": "30min"
+      }
+    },
+    {
+      "id": "1454232",
+      "category": "STYLIZACJA PAZNOKCI",
+      "name": "Shea Manicure",
+      "description": null,
+      "price": null,
+      "priceLabel": "100,00&nbsp;zł+",
+      "duration": {
+        "minutes": 30,
+        "label": "30min"
+      }
+    },
+    {
+      "id": "1454241",
+      "category": "STYLIZACJA PAZNOKCI",
+      "name": "Manicure klasyczny",
+      "description": null,
+      "price": null,
+      "priceLabel": "80,00&nbsp;zł+",
+      "duration": {
+        "minutes": 30,
+        "label": "30min"
+      }
+    },
+    {
+      "id": "1454247",
+      "category": "STYLIZACJA PAZNOKCI",
+      "name": "Manicure hybrydowy KOLOR",
+      "description": null,
+      "price": null,
+      "priceLabel": "130,00&nbsp;zł+",
+      "duration": {
+        "minutes": 70,
+        "label": "1g 10min"
+      }
+    },
+    {
+      "id": "1454249",
+      "category": "STYLIZACJA PAZNOKCI",
+      "name": "Manicure hybrydowy SAMA BAZA",
+      "description": null,
+      "price": null,
+      "priceLabel": "120,00&nbsp;zł+",
+      "duration": {
+        "minutes": 60,
+        "label": "1g"
+      }
+    },
+    {
+      "id": "1955736",
+      "category": "STYLIZACJA PAZNOKCI",
+      "name": "Manicure żelowy uzupełnienie do 4yg.",
+      "description": null,
+      "price": null,
+      "priceLabel": "160,00&nbsp;zł+",
+      "duration": {
+        "minutes": 90,
+        "label": "1g 30min"
+      }
+    },
+    {
+      "id": "1955738",
+      "category": "STYLIZACJA PAZNOKCI",
+      "name": "Manicure żelowy uzupełnienie DŁUGIE",
+      "description": null,
+      "price": null,
+      "priceLabel": "170,00&nbsp;zł+",
+      "duration": {
+        "minutes": 105,
+        "label": "1g 45min"
+      }
+    },
+    {
+      "id": "2319228",
+      "category": "STYLIZACJA PAZNOKCI",
+      "name": "Manicure żelowy z przedłużeniem KRÓTKIE",
+      "description": null,
+      "price": null,
+      "priceLabel": "190,00&nbsp;zł+",
+      "duration": {
+        "minutes": 105,
+        "label": "1g 45min"
+      }
+    },
+    {
+      "id": "3682650",
+      "category": "STYLIZACJA PAZNOKCI",
+      "name": "Manicure żelowy naturalna płytka/uzupeł.KRÓTKIE",
+      "description": null,
+      "price": null,
+      "priceLabel": "150,00&nbsp;zł+",
+      "duration": {
+        "minutes": 70,
+        "label": "1g 10min"
+      }
+    },
+    {
+      "id": "4796009",
+      "category": "STYLIZACJA PAZNOKCI",
+      "name": "Rekonstrukcja paznokci obgryzionych-przedłużenie",
+      "description": null,
+      "price": null,
+      "priceLabel": "230,00&nbsp;zł+",
+      "duration": {
+        "minutes": 120,
+        "label": "2g"
+      }
+    },
+    {
+      "id": "4797805",
+      "category": "STYLIZACJA PAZNOKCI",
+      "name": "Manicure hybrydowy KOLOR DŁUGIE",
+      "description": null,
+      "price": null,
+      "priceLabel": "140,00&nbsp;zł+",
+      "duration": {
+        "minutes": 70,
+        "label": "1g 10min"
+      }
+    },
+    {
+      "id": "5196692",
+      "category": "STYLIZACJA PAZNOKCI",
+      "name": "Usunięcie Starej Stylizacji + Manicure Klasyczny",
+      "description": null,
+      "price": null,
+      "priceLabel": "90,00&nbsp;zł+",
+      "duration": {
+        "minutes": 40,
+        "label": "40min"
+      }
+    },
+    {
+      "id": "5681894",
+      "category": "STYLIZACJA PAZNOKCI",
+      "name": "Manicure żelowy z przedłużeniem ŚREDNIE",
+      "description": null,
+      "price": null,
+      "priceLabel": "200,00&nbsp;zł+",
+      "duration": {
+        "minutes": 120,
+        "label": "2g"
+      }
+    },
+    {
+      "id": "6392666",
+      "category": "STYLIZACJA PAZNOKCI",
+      "name": "Laminacja Paznokci Yokaba",
+      "description": null,
+      "price": null,
+      "priceLabel": "100,00&nbsp;zł",
+      "duration": {
+        "minutes": 30,
+        "label": "30min"
+      }
+    },
+    {
+      "id": "6392672",
+      "category": "STYLIZACJA PAZNOKCI",
+      "name": "Laminacja Paznokci Yokaba Pakiet 4 zabiegi",
+      "description": null,
+      "price": null,
+      "priceLabel": "320,00&nbsp;zł",
+      "duration": {
+        "minutes": 30,
+        "label": "30min"
+      }
+    },
+    {
+      "id": "3684727",
+      "category": "STYLIZACJA PAZNOKCI",
+      "name": "Zdobienie FRENCH/OMBRE KOLOR",
+      "description": null,
+      "price": null,
+      "priceLabel": "20,00&nbsp;zł+",
+      "duration": {
+        "minutes": 15,
+        "label": "15min"
+      }
+    },
+    {
+      "id": "4190490",
+      "category": "STYLIZACJA PAZNOKCI",
+      "name": "Stylizacja po upływie 4 tyg.",
+      "description": null,
+      "price": null,
+      "priceLabel": "20,00&nbsp;zł+",
+      "duration": {
+        "minutes": 15,
+        "label": "15min"
+      }
+    },
+    {
+      "id": "1454209",
+      "category": "STYLIZACJA PAZNOKCI",
+      "name": "Usunięcie starej stylizacji przed nową aplikacją",
+      "description": null,
+      "price": null,
+      "priceLabel": "40,00&nbsp;zł+",
+      "duration": {
+        "minutes": 20,
+        "label": "20min"
+      }
+    },
+    {
+      "id": "1454229",
+      "category": "PEDICURE",
+      "name": "SPA Pedicure komplet z hybrydą",
+      "description": null,
+      "price": null,
+      "priceLabel": "160,00&nbsp;zł+",
+      "duration": {
+        "minutes": 60,
+        "label": "1g"
+      }
+    },
+    {
+      "id": "1454231",
+      "category": "PEDICURE",
+      "name": "Pedicure klasyczny bez hybrydy",
+      "description": null,
+      "price": null,
+      "priceLabel": "120,00&nbsp;zł+",
+      "duration": {
+        "minutes": 40,
+        "label": "40min"
+      }
+    },
+    {
+      "id": "2691397",
+      "category": "PEDICURE",
+      "name": "Pedicure hybrydowy (same paznokcie)",
+      "description": null,
+      "price": null,
+      "priceLabel": "140,00&nbsp;zł+",
+      "duration": {
+        "minutes": 50,
+        "label": "50min"
+      }
+    },
+    {
+      "id": "1454300",
+      "category": "WYBIELANIE ZĘBÓW",
+      "name": "White Smile PRO 3 sesje",
+      "description": null,
+      "price": null,
+      "priceLabel": "420,00&nbsp;zł+",
+      "duration": {
+        "minutes": 100,
+        "label": "1g 40min"
+      }
+    },
+    {
+      "id": "1454301",
+      "category": "WYBIELANIE ZĘBÓW",
+      "name": "White Smile 2 sesje",
+      "description": null,
+      "price": null,
+      "priceLabel": "350,00&nbsp;zł+",
+      "duration": {
+        "minutes": 70,
+        "label": "1g 10min"
+      }
+    },
+    {
+      "id": "1454225",
+      "category": "MAKIJAŻ PERMANENTNY",
+      "name": "Korekta brwi (stary makijaż) do 2 lat",
+      "description": null,
+      "price": null,
+      "priceLabel": "450,00&nbsp;zł+",
+      "duration": {
+        "minutes": 120,
+        "label": "2g"
+      }
+    },
+    {
+      "id": "6295323",
+      "category": "MAKIJAŻ PERMANENTNY",
+      "name": "Korekta brwi (Cover)",
+      "description": null,
+      "price": null,
+      "priceLabel": "700,00&nbsp;zł+",
+      "duration": {
+        "minutes": 150,
+        "label": "2g 30min"
+      }
+    },
+    {
+      "id": "6991058",
+      "category": "MAKIJAŻ PERMANENTNY",
+      "name": "Dopigmentowanie dodatkowe",
+      "description": null,
+      "price": null,
+      "priceLabel": "200,00&nbsp;zł",
+      "duration": {
+        "minutes": 60,
+        "label": "1g"
+      }
+    },
+    {
+      "id": "5564103",
+      "category": "MAKIJAŻ PERMANENTNY",
+      "name": "Dopigmentowanie ust",
+      "description": null,
+      "price": null,
+      "priceLabel": "200,00&nbsp;zł+",
+      "duration": {
+        "minutes": 90,
+        "label": "1g 30min"
+      }
+    },
+    {
+      "id": "5564101",
+      "category": "MAKIJAŻ PERMANENTNY",
+      "name": "Perfect LIPS",
+      "description": null,
+      "price": null,
+      "priceLabel": "700,00&nbsp;zł+",
+      "duration": {
+        "minutes": 180,
+        "label": "3g"
+      }
+    },
+    {
+      "id": "1454280",
+      "category": "MAKIJAŻ PERMANENTNY",
+      "name": "Brwi pudrowe/ombre",
+      "description": null,
+      "price": null,
+      "priceLabel": "750,00&nbsp;zł+",
+      "duration": {
+        "minutes": 180,
+        "label": "3g"
+      }
+    },
+    {
+      "id": "3684420",
+      "category": "MAKIJAŻ PERMANENTNY",
+      "name": "Dopigmentowanie brwi do 12tyg.",
+      "description": null,
+      "price": null,
+      "priceLabel": "150,00&nbsp;zł+",
+      "duration": {
+        "minutes": 60,
+        "label": "1g"
+      }
+    },
+    {
+      "id": "7383705",
+      "category": "MAKIJAŻ PERMANENTNY",
+      "name": "Usuwanie/rozjaśnianie PMU",
+      "description": null,
+      "price": null,
+      "priceLabel": "350,00&nbsp;zł",
+      "duration": {
+        "minutes": 45,
+        "label": "45min"
+      }
+    },
+    {
+      "id": "1454233",
+      "category": "STYLIZACJA BRWI",
+      "name": "Geometria brwi z koloryzacją henną pudrową/farb...",
+      "description": null,
+      "price": null,
+      "priceLabel": "90,00&nbsp;zł+",
+      "duration": {
+        "minutes": 30,
+        "label": "30min"
+      }
+    },
+    {
+      "id": "1454251",
+      "category": "STYLIZACJA BRWI",
+      "name": "Laminacja brwi z koloryzacją",
+      "description": null,
+      "price": null,
+      "priceLabel": "150,00&nbsp;zł+",
+      "duration": {
+        "minutes": 60,
+        "label": "1g"
+      }
+    },
+    {
+      "id": "1454306",
+      "category": "STYLIZACJA BRWI",
+      "name": "Laminacja brwi bez koloryzacji",
+      "description": null,
+      "price": null,
+      "priceLabel": "130,00&nbsp;zł+",
+      "duration": {
+        "minutes": 40,
+        "label": "40min"
+      }
+    },
+    {
+      "id": "1454269",
+      "category": "STYLIZACJA BRWI",
+      "name": "SPA dla brwi",
+      "description": null,
+      "price": null,
+      "priceLabel": "50,00&nbsp;zł+",
+      "duration": {
+        "minutes": 30,
+        "label": "30min"
+      }
+    },
+    {
+      "id": "1454282",
+      "category": "STYLIZACJA RZĘS",
+      "name": "Koreańska Laminacja/Lifting rzęs z koloryzacją",
+      "description": null,
+      "price": null,
+      "priceLabel": "160,00&nbsp;zł+",
+      "duration": {
+        "minutes": 60,
+        "label": "1g"
+      }
+    },
+    {
+      "id": "1454305",
+      "category": "STYLIZACJA RZĘS",
+      "name": "Relaksacja rzęs",
+      "description": null,
+      "price": null,
+      "priceLabel": "160,00&nbsp;zł+",
+      "duration": {
+        "minutes": 60,
+        "label": "1g"
+      }
+    },
+    {
+      "id": "6702732",
+      "category": "STYLIZACJA RZĘS",
+      "name": "Korean LAMI + GEOMETRIA BRWI",
+      "description": null,
+      "price": null,
+      "priceLabel": "230,00&nbsp;zł",
+      "duration": {
+        "minutes": 75,
+        "label": "1g 15min"
+      }
+    },
+    {
+      "id": "6702735",
+      "category": "STYLIZACJA RZĘS",
+      "name": "Korean LAMI + LAMINACJA BRWI",
+      "description": null,
+      "price": null,
+      "priceLabel": "290,00&nbsp;zł",
+      "duration": {
+        "minutes": 75,
+        "label": "1g 15min"
+      }
+    },
+    {
+      "id": "1454302",
+      "category": "STYLIZACJA RZĘS",
+      "name": "Koloryzacja rzęs farbką",
+      "description": null,
+      "price": null,
+      "priceLabel": "30,00&nbsp;zł+",
+      "duration": {
+        "minutes": 20,
+        "label": "20min"
+      }
+    },
+    {
+      "id": "1454304",
+      "category": "STYLIZACJA RZĘS",
+      "name": "Odżywianie rzęs botoxem + koloryzacja",
+      "description": null,
+      "price": null,
+      "priceLabel": "60,00&nbsp;zł+",
+      "duration": {
+        "minutes": 20,
+        "label": "20min"
+      }
+    },
+    {
+      "id": "1454296",
+      "category": "DEPILACJA WOSKIEM",
+      "name": "Broda",
+      "description": null,
+      "price": null,
+      "priceLabel": "20,00&nbsp;zł+",
+      "duration": {
+        "minutes": 10,
+        "label": "10min"
+      }
+    },
+    {
+      "id": "1454297",
+      "category": "DEPILACJA WOSKIEM",
+      "name": "Brwi",
+      "description": null,
+      "price": null,
+      "priceLabel": "30,00&nbsp;zł+",
+      "duration": {
+        "minutes": 15,
+        "label": "15min"
+      }
+    },
+    {
+      "id": "1454230",
+      "category": "DEPILACJA WOSKIEM",
+      "name": "Nos",
+      "description": null,
+      "price": null,
+      "priceLabel": "20,00&nbsp;zł+",
+      "duration": {
+        "minutes": 10,
+        "label": "10min"
+      }
+    },
+    {
+      "id": "1454295",
+      "category": "DEPILACJA WOSKIEM",
+      "name": "Pachy",
+      "description": null,
+      "price": null,
+      "priceLabel": "40,00&nbsp;zł+",
+      "duration": {
+        "minutes": 15,
+        "label": "15min"
+      }
+    },
+    {
+      "id": "1454298",
+      "category": "DEPILACJA WOSKIEM",
+      "name": "Policzki",
+      "description": null,
+      "price": null,
+      "priceLabel": "30,00&nbsp;zł+",
+      "duration": {
+        "minutes": 20,
+        "label": "20min"
+      }
+    },
+    {
+      "id": "1454285",
+      "category": "DEPILACJA WOSKIEM",
+      "name": "Ręce",
+      "description": null,
+      "price": null,
+      "priceLabel": "80,00&nbsp;zł+",
+      "duration": {
+        "minutes": 45,
+        "label": "45min"
+      }
+    },
+    {
+      "id": "1454299",
+      "category": "DEPILACJA WOSKIEM",
+      "name": "Wąsik",
+      "description": null,
+      "price": null,
+      "priceLabel": "20,00&nbsp;zł+",
+      "duration": {
+        "minutes": 10,
+        "label": "10min"
+      }
+    },
+    {
+      "id": "1454199",
+      "category": "BROWBER Męska stylizacja brwi i zarostu",
+      "name": "Laminacja brwi",
+      "description": null,
+      "price": null,
+      "priceLabel": "130,00&nbsp;zł+",
+      "duration": {
+        "minutes": 40,
+        "label": "40min"
+      }
+    },
+    {
+      "id": "1454204",
+      "category": "BROWBER Męska stylizacja brwi i zarostu",
+      "name": "Depilacja nosa/uszu",
+      "description": null,
+      "price": null,
+      "priceLabel": "30,00&nbsp;zł+",
+      "duration": {
+        "minutes": 15,
+        "label": "15min"
+      }
+    },
+    {
+      "id": "1454201",
+      "category": "BROWBER Męska stylizacja brwi i zarostu",
+      "name": "Korekta kształtu brwi + koloryzacja",
+      "description": null,
+      "price": null,
+      "priceLabel": "80,00&nbsp;zł+",
+      "duration": {
+        "minutes": 50,
+        "label": "50min"
+      }
+    },
+    {
+      "id": "1454200",
+      "category": "BROWBER Męska stylizacja brwi i zarostu",
+      "name": "Korekta kształtu brwi/przerzedzenie",
+      "description": null,
+      "price": null,
+      "priceLabel": "50,00&nbsp;zł+",
+      "duration": {
+        "minutes": 30,
+        "label": "30min"
+      }
+    },
+    {
+      "id": "1454198",
+      "category": "BROWBER Męska stylizacja brwi i zarostu",
+      "name": "Laminacja brwi z koloryzacją",
+      "description": null,
+      "price": null,
+      "priceLabel": "150,00&nbsp;zł+",
+      "duration": {
+        "minutes": 50,
+        "label": "50min"
+      }
+    },
+    {
+      "id": "2436495",
+      "category": "ZABIEGI NA CIAŁO",
+      "name": "Body Contour 1 Zabieg 45min",
+      "description": null,
+      "price": null,
+      "priceLabel": "149,00&nbsp;zł+",
+      "duration": {
+        "minutes": 45,
+        "label": "45min"
+      }
+    },
+    {
+      "id": "6226587",
+      "category": "💎 TOOTH GEMS 💎 BIŻUTERIA NAZĘBNA",
+      "name": "1 KRYSZTAŁ OKRĄGŁY",
+      "description": null,
+      "price": null,
+      "priceLabel": "90,00&nbsp;zł+",
+      "duration": {
+        "minutes": 15,
+        "label": "15min"
+      }
+    },
+    {
+      "id": "6227499",
+      "category": "💎 TOOTH GEMS 💎 BIŻUTERIA NAZĘBNA",
+      "name": "1 KRYSZTAŁ KSZTAŁT",
+      "description": null,
+      "price": null,
+      "priceLabel": "100,00&nbsp;zł+",
+      "duration": {
+        "minutes": 15,
+        "label": "15min"
+      }
+    },
+    {
+      "id": "6227507",
+      "category": "💎 TOOTH GEMS 💎 BIŻUTERIA NAZĘBNA",
+      "name": "2 KRYSZTAŁY",
+      "description": null,
+      "price": null,
+      "priceLabel": "160,00&nbsp;zł+",
+      "duration": {
+        "minutes": 15,
+        "label": "15min"
+      }
+    },
+    {
+      "id": "6227509",
+      "category": "💎 TOOTH GEMS 💎 BIŻUTERIA NAZĘBNA",
+      "name": "3 KRYSZTAŁY",
+      "description": null,
+      "price": null,
+      "priceLabel": "200,00&nbsp;zł+",
+      "duration": {
+        "minutes": 15,
+        "label": "15min"
+      }
+    },
+    {
+      "id": "6227512",
+      "category": "💎 TOOTH GEMS 💎 BIŻUTERIA NAZĘBNA",
+      "name": "4 KRZYSZTAŁY",
+      "description": null,
+      "price": null,
+      "priceLabel": "250,00&nbsp;zł+",
+      "duration": {
+        "minutes": 20,
+        "label": "20min"
+      }
+    },
+    {
+      "id": "6227517",
+      "category": "💎 TOOTH GEMS 💎 BIŻUTERIA NAZĘBNA",
+      "name": "5-6 KRYSZTAŁÓW",
+      "description": null,
+      "price": null,
+      "priceLabel": "300,00&nbsp;zł+",
+      "duration": {
+        "minutes": 25,
+        "label": "25min"
+      }
+    },
+    {
+      "id": "1454216",
+      "category": "ZABIEGI PIELĘGNACYJNE LARENS",
+      "name": "Zabieg Terapeutyczny dla cer naczyniowych i trą...",
+      "description": null,
+      "price": null,
+      "priceLabel": "300,00&nbsp;zł+",
+      "duration": {
+        "minutes": 60,
+        "label": "1g"
+      }
+    },
+    {
+      "id": "1454217",
+      "category": "ZABIEGI PIELĘGNACYJNE LARENS",
+      "name": "Zabieg dla cery przetłuszczającej się i trądzik...",
+      "description": null,
+      "price": null,
+      "priceLabel": "200,00&nbsp;zł+",
+      "duration": {
+        "minutes": 45,
+        "label": "45min"
+      }
+    },
+    {
+      "id": "1454218",
+      "category": "ZABIEGI PIELĘGNACYJNE LARENS",
+      "name": "Zabieg dla cery naczyniowej (podstawowy)",
+      "description": null,
+      "price": null,
+      "priceLabel": "200,00&nbsp;zł+",
+      "duration": {
+        "minutes": 45,
+        "label": "45min"
+      }
+    },
+    {
+      "id": "1454219",
+      "category": "ZABIEGI PIELĘGNACYJNE LARENS",
+      "name": "Zabieg Larens hydrating (nawilżający)",
+      "description": null,
+      "price": null,
+      "priceLabel": "200,00&nbsp;zł+",
+      "duration": {
+        "minutes": 45,
+        "label": "45min"
+      }
+    },
+    {
+      "id": "1454222",
+      "category": "ZABIEGI PIELĘGNACYJNE LARENS",
+      "name": "Zabieg LIPOCOLL (lifting)",
+      "description": null,
+      "price": null,
+      "priceLabel": "320,00&nbsp;zł+",
+      "duration": {
+        "minutes": 70,
+        "label": "1g 10min"
+      }
+    },
+    {
+      "id": "1454223",
+      "category": "ZABIEGI PIELĘGNACYJNE LARENS",
+      "name": "SEKRET WIECZNEJ MŁODOŚCI MEZO",
+      "description": null,
+      "price": null,
+      "priceLabel": "350,00&nbsp;zł+",
+      "duration": {
+        "minutes": 75,
+        "label": "1g 15min"
+      }
+    },
+    {
+      "id": "1454224",
+      "category": "ZABIEGI PIELĘGNACYJNE LARENS",
+      "name": "SEKRET WIECZNEJ MŁODOŚCI",
+      "description": null,
+      "price": null,
+      "priceLabel": "270,00&nbsp;zł+",
+      "duration": {
+        "minutes": 75,
+        "label": "1g 15min"
+      }
+    },
+    {
+      "id": "3832342",
+      "category": "ZABIEGI PIELĘGNACYJNE LARENS",
+      "name": "Zabieg silnie odmładzajacy z ampułką ANTI-AGING",
+      "description": null,
+      "price": null,
+      "priceLabel": "300,00&nbsp;zł+",
+      "duration": {
+        "minutes": 75,
+        "label": "1g 15min"
+      }
+    },
+    {
+      "id": "6280097",
+      "category": "ZABIEGI PIELĘGNACYJNE LARENS",
+      "name": "Zabieg ReHarmony Skin Treatment",
+      "description": null,
+      "price": null,
+      "priceLabel": "230,00&nbsp;zł+",
+      "duration": {
+        "minutes": 60,
+        "label": "1g"
+      }
+    },
+    {
+      "id": "6326832",
+      "category": "ZABIEGI PIELĘGNACYJNE LARENS",
+      "name": "ReHarmony ANTI AGING Skin Treatment",
+      "description": null,
+      "price": null,
+      "priceLabel": "280,00&nbsp;zł",
+      "duration": {
+        "minutes": 60,
+        "label": "1g"
+      }
+    },
+    {
+      "id": "6489187",
+      "category": "ZABIEGI PIELĘGNACYJNE LARENS",
+      "name": "Zabieg DETOX z kwasem ferulowym",
+      "description": null,
+      "price": null,
+      "priceLabel": "250,00&nbsp;zł",
+      "duration": {
+        "minutes": 70,
+        "label": "1g 10min"
+      }
+    },
+    {
+      "id": "6489193",
+      "category": "ZABIEGI PIELĘGNACYJNE LARENS",
+      "name": "Zabieg LIPOCOLL Mezo (z mikronakłuwaniem)",
+      "description": null,
+      "price": null,
+      "priceLabel": "380,00&nbsp;zł",
+      "duration": {
+        "minutes": 75,
+        "label": "1g 15min"
+      }
+    },
+    {
+      "id": "1836201",
+      "category": "GENEO innowacyjna pielęgnacja twarzy",
+      "name": "GENEO BODY 2 kapsułki",
+      "description": null,
+      "price": null,
+      "priceLabel": "600,00&nbsp;zł+",
+      "duration": {
+        "minutes": 70,
+        "label": "1g 10min"
+      }
+    },
+    {
+      "id": "1940230",
+      "category": "GENEO innowacyjna pielęgnacja twarzy",
+      "name": "GENEO pielęgnacja 3w1 (twarz-szyja-dekolt)",
+      "description": null,
+      "price": null,
+      "priceLabel": "350,00&nbsp;zł+",
+      "duration": {
+        "minutes": 60,
+        "label": "1g"
+      }
+    },
+    {
+      "id": "6405219",
+      "category": "GENEO innowacyjna pielęgnacja twarzy",
+      "name": "GENEO PREMIUM (twarz-szyja-dekolt)",
+      "description": null,
+      "price": null,
+      "priceLabel": "400,00&nbsp;zł",
+      "duration": {
+        "minutes": 60,
+        "label": "1g"
+      }
+    },
+    {
+      "id": "1454257",
+      "category": "OCZYSZCZANIE TWARZY💦",
+      "name": "Aqua Peel 6w1 (oczyszczanie wodorowe) 6 etapów,...",
+      "description": null,
+      "price": null,
+      "priceLabel": "270,00&nbsp;zł+",
+      "duration": {
+        "minutes": 60,
+        "label": "1g"
+      }
+    },
+    {
+      "id": "4113075",
+      "category": "OCZYSZCZANIE TWARZY💦",
+      "name": "BALANCE oczyszczanie twarzy dla młodzieży",
+      "description": null,
+      "price": null,
+      "priceLabel": "230,00&nbsp;zł+",
+      "duration": {
+        "minutes": 60,
+        "label": "1g"
+      }
+    },
+    {
+      "id": "1711633",
+      "category": "MEZOTERAPIA IGŁOWA",
+      "name": "Mezoterapia igłowa",
+      "description": null,
+      "price": null,
+      "priceLabel": "350,00&nbsp;zł+",
+      "duration": {
+        "minutes": 45,
+        "label": "45min"
+      }
+    },
+    {
+      "id": "1711641",
+      "category": "MEZOTERAPIA IGŁOWA",
+      "name": "Mezoterapia igłowa",
+      "description": null,
+      "price": null,
+      "priceLabel": "400,00&nbsp;zł+",
+      "duration": {
+        "minutes": 45,
+        "label": "45min"
+      }
+    },
+    {
+      "id": "1454273",
+      "category": "MEZOTERAPIA MIKROIGŁOWA DermaPen",
+      "name": "Dermapen twarz + szyja + dekolt",
+      "description": null,
+      "price": null,
+      "priceLabel": "350,00&nbsp;zł+",
+      "duration": {
+        "minutes": 70,
+        "label": "1g 10min"
+      }
+    },
+    {
+      "id": "1454313",
+      "category": "MEZOTERAPIA MIKROIGŁOWA DermaPen",
+      "name": "Dermapen twarz",
+      "description": null,
+      "price": null,
+      "priceLabel": "250,00&nbsp;zł+",
+      "duration": {
+        "minutes": 60,
+        "label": "1g"
+      }
+    },
+    {
+      "id": "3937412",
+      "category": "MEZOTERAPIA MIKROIGŁOWA DermaPen",
+      "name": "DermaPen+ BotoxAlternative ZENA",
+      "description": null,
+      "price": null,
+      "priceLabel": "350,00&nbsp;zł+",
+      "duration": {
+        "minutes": 45,
+        "label": "45min"
+      }
+    },
+    {
+      "id": "3937737",
+      "category": "MEZOTERAPIA MIKROIGŁOWA DermaPen",
+      "name": "DermaPen + Hyalnano Filling ZENA",
+      "description": null,
+      "price": null,
+      "priceLabel": "380,00&nbsp;zł+",
+      "duration": {
+        "minutes": 45,
+        "label": "45min"
+      }
+    },
+    {
+      "id": "1454226",
+      "category": "BIOREWITALIZACJA CHEMICZNA TWARZY",
+      "name": "PQ Age Evolution seria 4 zabiegi",
+      "description": null,
+      "price": null,
+      "priceLabel": "800,00&nbsp;zł+",
+      "duration": {
+        "minutes": 45,
+        "label": "45min"
+      }
+    },
+    {
+      "id": "1454228",
+      "category": "BIOREWITALIZACJA CHEMICZNA TWARZY",
+      "name": "PQ Age Evolution",
+      "description": null,
+      "price": null,
+      "priceLabel": "250,00&nbsp;zł+",
+      "duration": {
+        "minutes": 30,
+        "label": "30min"
+      }
+    },
+    {
+      "id": "1454291",
+      "category": "BIOREWITALIZACJA CHEMICZNA TWARZY",
+      "name": "BioRePeelCl3 2ml Peeling Chemiczny",
+      "description": null,
+      "price": null,
+      "priceLabel": "250,00&nbsp;zł+",
+      "duration": {
+        "minutes": 60,
+        "label": "1g"
+      }
+    },
+    {
+      "id": "1711413",
+      "category": "BIOREWITALIZACJA CHEMICZNA TWARZY",
+      "name": "Retix C - zabieg ANTI-AGING z retinolem i wit.C",
+      "description": null,
+      "price": null,
+      "priceLabel": "250,00&nbsp;zł+",
+      "duration": {
+        "minutes": 60,
+        "label": "1g"
+      }
+    },
+    {
+      "id": "3937742",
+      "category": "ALGAE PEELING",
+      "name": "Algae Peeling ZENA",
+      "description": null,
+      "price": null,
+      "priceLabel": "300,00&nbsp;zł+",
+      "duration": {
+        "minutes": 60,
+        "label": "1g"
+      }
+    },
+    {
+      "id": "6718397",
+      "category": "Zabiegi NANO-NEEDLES ",
+      "name": "NANO-NEEDLES \"Lifting i ujędrnienie\"",
+      "description": null,
+      "price": null,
+      "priceLabel": "350,00&nbsp;zł",
+      "duration": {
+        "minutes": 45,
+        "label": "45min"
+      }
+    },
+    {
+      "id": "6718402",
+      "category": "Zabiegi NANO-NEEDLES ",
+      "name": "NANO-NEEDLES \"Przebarwienia\"",
+      "description": null,
+      "price": null,
+      "priceLabel": "350,00&nbsp;zł",
+      "duration": {
+        "minutes": 45,
+        "label": "45min"
+      }
+    },
+    {
+      "id": "6718422",
+      "category": "Zabiegi NANO-NEEDLES ",
+      "name": "NANO-NEEDLES \"Pobudzenie do odnowy\"",
+      "description": null,
+      "price": null,
+      "priceLabel": "350,00&nbsp;zł",
+      "duration": {
+        "minutes": 45,
+        "label": "45min"
+      }
+    }
+  ],
+  "servicesCount": 93,
+  "reviewsSample": [
+    {
+      "author": "Nikola",
+      "date": "maj 1, 2026",
+      "service": "Geometria brwi z koloryzacją henną pudrową/farb...",
+      "body": "Szybko i sprawnie z mega efektem końcowym."
+    },
+    {
+      "author": "Katarzyna",
+      "date": "kwi 25, 2026",
+      "service": "Koreańska Laminacja/Lifting rzęs z koloryzacją",
+      "body": "Profesjonalna obsługa i kompleksowe wiedza."
+    },
+    {
+      "author": "Karolina",
+      "date": "kwi 20, 2026",
+      "service": "Geometria brwi z koloryzacją henną pudrową/farb...",
+      "body": "Z pielegnacji u Pani Malgosi korzystam od 4 lat. Podczas pierwszych wizyt przywrocila moje brwi do naturalnego ksztaltu i gęstości. Teraz wracam na pr..."
+    },
+    {
+      "author": "Katarzyna",
+      "date": "kwi 17, 2026",
+      "service": "Zabieg dla cery przetłuszczającej się i trądzik...",
+      "body": "polecam !"
+    },
+    {
+      "author": "Agnieszka",
+      "date": "mar 21, 2026",
+      "service": "Dopigmentowanie brwi do 12tyg.",
+      "body": "Kolor, kształt - idealnie. Jestem mega zadowolona. Do tego cenne wskazówki na temat pielęgnacji twarzy. Polecam😍"
+    },
+    {
+      "author": "Joanna",
+      "date": "mar 21, 2026",
+      "service": "Geometria brwi z koloryzacją henną pudrową/farb...",
+      "body": "Super😁"
+    },
+    {
+      "author": "Agnieszka",
+      "date": "mar 18, 2026",
+      "service": "Geometria brwi z koloryzacją henną pudrową/farb...",
+      "body": "super 👍"
+    },
+    {
+      "author": "Ola",
+      "date": "mar 3, 2026",
+      "service": "Geometria brwi z koloryzacją henną pudrową/farb...",
+      "body": "Byłam na geometrii i farbce brwi 😍 Pani idealnie mnie wysłuchała i zrobiła dokładnie tak, jak chciałam. Kolor i kształt perfekcyjne. Z całego serca p..."
+    },
+    {
+      "author": "Marlena",
+      "date": "lut 19, 2026",
+      "service": "Zabieg LIPOCOLL Mezo (z mikronakłuwaniem)",
+      "body": "Jestem zadowolona"
+    },
+    {
+      "author": "Kamila",
+      "date": "lut 16, 2026",
+      "service": "Retix C - zabieg ANTI-AGING z retinolem i wit.C",
+      "body": "Serdecznie polecam!"
+    }
+  ],
+  "reviewsTotalPages": 12,
+  "photos": {
+    "scrapedAt": "2026-05-20T22:18:50.211Z",
+    "sourceUrl": "https://booksy.com/pl-pl/102760_be-beauty-salon-urody-brow-academy-malgorzata-szymajda_salon-kosmetyczny_15570_luban",
+    "count": 14,
+    "gallery": [
+      "/images/social/booksy-01.jpg",
+      "/images/social/booksy-02.jpg",
+      "/images/social/booksy-03.jpg",
+      "/images/social/booksy-04.jpg",
+      "/images/social/booksy-05.jpg",
+      "/images/social/booksy-06.jpg",
+      "/images/social/booksy-07.jpg",
+      "/images/social/booksy-08.jpg"
+    ],
+    "services": [
+      "/images/social/booksy-09.jpg",
+      "/images/social/booksy-10.jpg"
+    ],
+    "reviews": [
+      "/images/social/booksy-11.jpg",
+      "/images/social/booksy-12.jpg",
+      "/images/social/booksy-13.jpg",
+      "/images/social/booksy-14.jpg"
+    ],
+    "images": [
+      {
+        "id": "booksy-1",
+        "type": "gallery",
+        "filename": "booksy-01.jpg",
+        "localPath": "/images/social/booksy-01.jpg",
+        "originalUrl": "https://d375139ucebi94.cloudfront.net/region2/pl/102760/biz_photo/10933c4a08184b6e88d2b1b61c69db-be-beauty-salon-urody-brow-aca-biz-photo-d83a7a66da3a450c93c97fab8e3b0d-booksy.jpeg",
+        "bytes": 259114
+      },
+      {
+        "id": "booksy-2",
+        "type": "gallery",
+        "filename": "booksy-02.jpg",
+        "localPath": "/images/social/booksy-02.jpg",
+        "originalUrl": "https://d375139ucebi94.cloudfront.net/region2/pl/102760/biz_photo/7e6cc2c321a14fc3be81309f1e5648-be-beauty-salon-urody-brow-aca-biz-photo-5ca1ffbad93745f48a2851d366a7d8-booksy.jpeg",
+        "bytes": 511792
+      },
+      {
+        "id": "booksy-3",
+        "type": "gallery",
+        "filename": "booksy-03.jpg",
+        "localPath": "/images/social/booksy-03.jpg",
+        "originalUrl": "https://d375139ucebi94.cloudfront.net/region2/pl/102760/biz_photo/b44eb6fae4304a1983c4c8660f10df-be-beauty-salon-urody-brow-aca-biz-photo-fdbd897d9a9348f5b4e6abd9f13288-booksy.jpeg",
+        "bytes": 113762
+      },
+      {
+        "id": "booksy-4",
+        "type": "gallery",
+        "filename": "booksy-04.jpg",
+        "localPath": "/images/social/booksy-04.jpg",
+        "originalUrl": "https://d375139ucebi94.cloudfront.net/region2/pl/102760/biz_photo/3fd28c59227a4e37ac703cb27d5168-be-beauty-salon-urody-brow-aca-biz-photo-0907c18a0e58472db45c3ad13e1b09-booksy.jpeg",
+        "bytes": 252978
+      },
+      {
+        "id": "booksy-5",
+        "type": "gallery",
+        "filename": "booksy-05.jpg",
+        "localPath": "/images/social/booksy-05.jpg",
+        "originalUrl": "https://d375139ucebi94.cloudfront.net/region2/pl/102760/biz_photo/aa1dcd7af816436ab637fc97b998d9-be-beauty-salon-urody-brow-aca-biz-photo-64ecddb4a2d142158c34469331a290-booksy.jpeg",
+        "bytes": 85742
+      },
+      {
+        "id": "booksy-6",
+        "type": "gallery",
+        "filename": "booksy-06.jpg",
+        "localPath": "/images/social/booksy-06.jpg",
+        "originalUrl": "https://d375139ucebi94.cloudfront.net/region2/pl/102760/biz_photo/6dd305efebd34496ac2f9562d18024-be-beauty-salon-urody-brow-aca-biz-photo-a2d05d0a2ee14bda8efab7025e320b-booksy.jpeg",
+        "bytes": 143144
+      },
+      {
+        "id": "booksy-7",
+        "type": "gallery",
+        "filename": "booksy-07.jpg",
+        "localPath": "/images/social/booksy-07.jpg",
+        "originalUrl": "https://d375139ucebi94.cloudfront.net/region2/pl/102760/biz_photo/cd200df774d6419a86be87bff0d39d-be-beauty-salon-urody-brow-aca-biz-photo-6d6b5852f9c942e7bfd31673243fb3-booksy.jpeg",
+        "bytes": 83137
+      },
+      {
+        "id": "booksy-8",
+        "type": "gallery",
+        "filename": "booksy-08.jpg",
+        "localPath": "/images/social/booksy-08.jpg",
+        "originalUrl": "https://d375139ucebi94.cloudfront.net/region2/pl/102760/biz_photo/729e897f9e5b4144a87ff05b8ccc20-be-beauty-salon-urody-brow-aca-biz-photo-aca2523f6e1f4f06b5180548f4ab8f-booksy.jpeg",
+        "bytes": 45579
+      },
+      {
+        "id": "booksy-9",
+        "type": "service",
+        "filename": "booksy-09.jpg",
+        "localPath": "/images/social/booksy-09.jpg",
+        "originalUrl": "https://d375139ucebi94.cloudfront.net/region2/pl/102760/service_photos/501ba3dc0f704c3f8c54f28ec88a667f.jpeg",
+        "bytes": 106721
+      },
+      {
+        "id": "booksy-10",
+        "type": "service",
+        "filename": "booksy-10.jpg",
+        "localPath": "/images/social/booksy-10.jpg",
+        "originalUrl": "https://d375139ucebi94.cloudfront.net/region2/pl/102760/service_photos/fb4c4fe006cd4c9c8b3d78550ffed37c.jpeg",
+        "bytes": 106721
+      },
+      {
+        "id": "booksy-11",
+        "type": "review",
+        "filename": "booksy-11.jpg",
+        "localPath": "/images/social/booksy-11.jpg",
+        "originalUrl": "https://d375139ucebi94.cloudfront.net/region2/pl/102760/review_photos/4f044981e67a4a33aa0fd404446fd2fd.jpeg",
+        "bytes": 339656
+      },
+      {
+        "id": "booksy-12",
+        "type": "review",
+        "filename": "booksy-12.jpg",
+        "localPath": "/images/social/booksy-12.jpg",
+        "originalUrl": "https://d375139ucebi94.cloudfront.net/region2/pl/102760/review_photos/c7bdcfb748b342b58d9daa28a9759e65.jpeg",
+        "bytes": 140709
+      },
+      {
+        "id": "booksy-13",
+        "type": "review",
+        "filename": "booksy-13.jpg",
+        "localPath": "/images/social/booksy-13.jpg",
+        "originalUrl": "https://d375139ucebi94.cloudfront.net/region2/pl/102760/review_photos/2a2b0ce6695345289c7420117d562555.jpeg",
+        "bytes": 226921
+      },
+      {
+        "id": "booksy-14",
+        "type": "review",
+        "filename": "booksy-14.jpg",
+        "localPath": "/images/social/booksy-14.jpg",
+        "originalUrl": "https://d375139ucebi94.cloudfront.net/region2/pl/102760/review_photos/d35ea6cfc1cb49f6b22967f9e34972f3.jpeg",
+        "bytes": 124381
+      }
+    ]
+  }
+}

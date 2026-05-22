@@ -1,0 +1,304 @@
+.gallery-section {
+  margin-top: -1px;
+  position: relative;
+  overflow: visible;
+  padding: 0;
+}
+
+.gallery__intro {
+  position: relative;
+  z-index: 1;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: clamp(80px, 10vw, 120px) clamp(24px, 5vw, 80px) clamp(40px, 6vw, 60px);
+}
+
+.gallery__eyebrow {
+  font-size: clamp(8px, 1vw, 10px);
+  font-weight: 700;
+  letter-spacing: 0.5em;
+  color: var(--color-nude, #C4A882);
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.gallery__title {
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  font-weight: 300;
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  margin: 0;
+}
+
+.gallery__title em {
+  font-weight: 300;
+  font-style: italic;
+  color: var(--color-nude, #C4A882);
+}
+
+/* Pin & Track container for Desktop */
+.gallery__pin {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.gallery__hud {
+  position: absolute;
+  top: 40px;
+  left: clamp(24px, 5vw, 80px);
+  right: clamp(24px, 5vw, 80px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.gallery__counter {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--color-nude, #C4A882);
+}
+
+.gallery__progress-container {
+  width: 120px;
+  height: 2px;
+  background: rgba(44, 24, 16, 0.08);
+  position: relative;
+  overflow: hidden;
+}
+
+.gallery__progress-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--color-nude, #C4A882);
+  transform: scaleX(0);
+  transform-origin: left center;
+  will-change: transform;
+}
+
+.gallery__track-container {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: 70vh;
+  overflow: hidden;
+}
+
+.gallery__track {
+  display: flex;
+  height: 100%;
+  /* Start od prawej — padding lustrzany względem Atelier */
+  padding-left: clamp(80px, 12vw, 180px);
+  padding-right: clamp(24px, 5vw, 80px);
+  align-items: center;
+  will-change: transform;
+}
+
+/* Gallery Panel / Item */
+.gallery-panel {
+  flex: 0 0 45vh;
+  aspect-ratio: 3/4;
+  height: 60vh;
+  margin-right: clamp(40px, 8vw, 100px);
+  position: relative;
+  overflow: hidden;
+  background: var(--color-ivory, #F8F5F0);
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  will-change: transform;
+}
+
+.gallery-panel--wide {
+  flex: 0 0 90vh;
+  aspect-ratio: 16/9;
+}
+
+.gallery-panel__media-wrap {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  background: var(--color-ivory, #f8f5f0);
+}
+
+.gallery-panel__media-wrap picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.gallery-panel__media {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  will-change: transform;
+  transition: transform 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.gallery-panel:hover .gallery-panel__media {
+  transform: scale(1.04);
+}
+
+/* Cinematic text and number elements inside cards */
+.gallery-panel__info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 30px;
+  background: linear-gradient(to top, rgba(26, 15, 10, 0.8) 0%, rgba(26, 15, 10, 0) 100%);
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1), transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  pointer-events: none;
+  z-index: 2;
+  text-align: left;
+}
+
+.gallery-panel:hover .gallery-panel__info {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.gallery-panel__no {
+  font-family: var(--font-sans, 'Inter', sans-serif);
+  font-size: clamp(10px, 1.2vw, 12px);
+  font-weight: 700;
+  color: var(--color-nude, #C4A882);
+  letter-spacing: 0.25em;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.gallery-panel__tag {
+  font-family: var(--font-serif, 'Playfair Display', serif);
+  font-size: clamp(18px, 2vw, 24px);
+  color: #FFFFFF;
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* Custom Lightbox */
+.gallery__lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 9000;
+  background: rgba(18, 10, 7, 0.98);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: clamp(16px, 4vw, 48px);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.gallery__lightbox.is-open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.gallery__lightbox-close {
+  position: absolute;
+  top: 32px;
+  right: 40px;
+  background: none;
+  border: none;
+  color: #FFFFFF;
+  font-size: 32px;
+  font-weight: 200;
+  cursor: pointer;
+  z-index: 10;
+  transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1), color 0.3s;
+}
+
+.gallery__lightbox-close:hover {
+  transform: scale(1.1) rotate(90deg);
+  color: var(--color-nude, #C4A882);
+}
+
+.gallery__lightbox-img-wrap {
+  position: relative;
+  max-width: 1400px;
+  width: 100%;
+  max-height: 82vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery__lightbox picture,
+.gallery__lightbox img {
+  max-width: 100%;
+  max-height: 82vh;
+  object-fit: contain;
+  box-shadow: 0 30px 100px rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  transform: scale(0.95) translateY(20px);
+  transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.gallery__lightbox.is-open picture,
+.gallery__lightbox.is-open img {
+  opacity: 1;
+  transform: scale(1) translateY(0);
+}
+
+/* Fallback Responsive layout for Mobile / Reduced Motion */
+@media (max-width: 899px) {
+  .gallery__pin {
+    height: auto;
+    overflow: visible;
+    display: block;
+  }
+  .gallery__track-container {
+    height: auto;
+    overflow: visible;
+  }
+  .gallery__track {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    padding: 0 clamp(24px, 5vw, 40px) 120px;
+    height: auto;
+  }
+  .gallery-panel {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 3/4;
+    margin-right: 0;
+    flex: none;
+  }
+  .gallery-panel--wide {
+    grid-column: 1 / -1;
+    aspect-ratio: 16/9;
+  }
+  .gallery__hud {
+    display: none;
+  }
+  .gallery-panel__info {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (max-width: 599px) {
+  .gallery__track {
+    grid-template-columns: 1fr;
+  }
+}
