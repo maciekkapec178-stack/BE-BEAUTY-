@@ -50,10 +50,9 @@ const Gallery: React.FC<GalleryProps> = ({ ready = true }) => {
     const track = trackRef.current;
     if (!pin || !track) return;
 
-    const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     const isDesktop = window.matchMedia('(min-width: 900px)').matches;
 
-    if (prefersReduced || !isDesktop) return;
+    if (!isDesktop) return;
 
     const setup = () => {
       ctxRef.current?.revert();

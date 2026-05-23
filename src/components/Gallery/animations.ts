@@ -25,9 +25,9 @@ export const initGalleryAnimations = (
     /* Przeciwny kierunek niż Atelier: start od końca tracku (prawa strona) → w lewo */
     const scrollTween = gsap.fromTo(
       track,
-      { x: () => -getScrollDist() },
+      { x: 0 },
       {
-        x: 0,
+        x: () => -getScrollDist(),
         ease: 'none',
         force3D: true,
         scrollTrigger: {

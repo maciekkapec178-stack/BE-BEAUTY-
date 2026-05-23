@@ -21,7 +21,7 @@ export const initAtelierAnimations = (
     });
 
     const scrollTween = gsap.to(track, {
-      x: () => -getScrollDist(),
+      x: () => getScrollDist(),
       ease: 'none',
       force3D: true,
       scrollTrigger: {

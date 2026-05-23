@@ -65,7 +65,6 @@ const AtelierShowcase: React.FC<{ ready?: boolean }> = ({ ready = true }) => {
     const progressBar = progressRef.current;
     if (!pin || !track) return;
 
-    const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     const desktopMq = window.matchMedia('(min-width: 900px)');
 
     let mobileObserver: IntersectionObserver | null = null;
@@ -98,10 +97,6 @@ const AtelierShowcase: React.FC<{ ready?: boolean }> = ({ ready = true }) => {
     const setupDesktop = () => {
       mobileObserver?.disconnect();
       mobileObserver = null;
-      if (prefersReduced) {
-        teardownDesktop();
-        return;
-      }
       teardownDesktop();
       rafId = requestAnimationFrame(() => {
         ctxRef.current = initAtelierAnimations(pin, track, progressBar);
